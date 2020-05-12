@@ -40,7 +40,7 @@ namespace Animal_IdentificationKBS
             ans14 = "no";
             ans15 = "no";
             panel12.Visible = false;
-            panel13.Visible = true;
+            panel16.Visible = true;
         }
 
         private void Button36_Click(object sender, EventArgs e)
@@ -60,8 +60,10 @@ namespace Animal_IdentificationKBS
         private void Button38_Click(object sender, EventArgs e)
         {
             ans13 = "yes";
+            ans14 = "no";
+            ans16 = "no";
             panel13.Visible = false;
-            panel14.Visible = true;
+            panel15.Visible = true;
         }
 
         private void Button37_Click(object sender, EventArgs e)
@@ -73,6 +75,8 @@ namespace Animal_IdentificationKBS
         private void Button39_Click(object sender, EventArgs e)
         {
             ans13 = "no";
+            ans15 = "no";
+            ans16 = "no";
             panel13.Visible = false;
             panel14.Visible = true;
         }
@@ -87,20 +91,20 @@ namespace Animal_IdentificationKBS
         {
             ans14 = "yes";
             panel14.Visible = false;
-            panel15.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button42_Click(object sender, EventArgs e)
         {
             ans14 = "no";
             panel14.Visible = false;
-            panel15.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button43_Click(object sender, EventArgs e)
         {
             panel15.Visible = false;
-            panel14.Visible = true;
+            panel13.Visible = true;
             
         }
 
@@ -108,20 +112,20 @@ namespace Animal_IdentificationKBS
         {
             ans15 = "yes";
             panel15.Visible = false;
-            panel16.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button45_Click(object sender, EventArgs e)
         {
             ans15 = "no";
             panel15.Visible = false;
-            panel16.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button46_Click(object sender, EventArgs e)
         {
             panel16.Visible = false;
-            panel15.Visible = true;
+            panel12.Visible = true;
         }
 
         private void Button47_Click(object sender, EventArgs e)
@@ -147,13 +151,19 @@ namespace Animal_IdentificationKBS
         private void Button50_Click(object sender, EventArgs e)
         {
             ans17 = "yes";
+            ans18 = "no";
             panel17.Visible = false;
-            panel18.Visible = true;
+            panel19.Visible = true;
         }
 
         private void Button51_Click(object sender, EventArgs e)
         {
             ans17 = "no";
+            ans19 = "no";
+            ans20 = "no";
+            ans21 = "no";
+            ans22 = "no";
+            ans23 = "no";
             panel17.Visible = false;
             panel18.Visible = true;
         }
@@ -168,32 +178,36 @@ namespace Animal_IdentificationKBS
         {
             ans18 = "yes";
             panel18.Visible = false;
-            panel19.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button54_Click(object sender, EventArgs e)
         {
             ans18 = "no";
             panel18.Visible = false;
-            panel19.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button55_Click(object sender, EventArgs e)
         {
             panel19.Visible = false;
-            panel18.Visible = true;
+            panel17.Visible = true;
         }
 
         private void Button56_Click(object sender, EventArgs e)
         {
             ans19 = "yes";
+            ans20 = "no";
             panel19.Visible = false;
-            panel20.Visible = true;
+            panel21.Visible = true;
         }
 
         private void Button57_Click(object sender, EventArgs e)
         {
             ans19 = "no";
+            ans21 = "no";
+            ans22 = "no";
+            ans23 = "no";
             panel19.Visible = false;
             panel20.Visible = true;
         }
@@ -208,27 +222,29 @@ namespace Animal_IdentificationKBS
         {
             ans20 = "yes";
             panel20.Visible = false;
-            panel21.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button60_Click(object sender, EventArgs e)
         {
             ans20 = "no";
             panel20.Visible = false;
-            panel21.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button61_Click(object sender, EventArgs e)
         {
             panel21.Visible = false;
-            panel20.Visible = true;
+            panel19.Visible = true;
         }
 
         private void Button62_Click(object sender, EventArgs e)
         {
             ans21 = "yes";
+            ans22 = "no";
+            ans23 = "no";
             panel21.Visible = false;
-            panel22.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button63_Click(object sender, EventArgs e)
@@ -247,16 +263,14 @@ namespace Animal_IdentificationKBS
         private void Button65_Click(object sender, EventArgs e)
         {
             ans22 = "yes";
-            ans24 = "no";
+            ans23 = "no";
             panel22.Visible = false;
-            panel23.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button66_Click(object sender, EventArgs e)
         { 
             ans22 = "no";
-
-            this.ans24 = "no";
             panel22.Visible = false;
             panel23.Visible = true;
         }
@@ -269,10 +283,7 @@ namespace Animal_IdentificationKBS
 
         private void Button68_Click(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
             ans23 = "yes";
-            this.ans24 = "no";
-            f1.ans24 = "no";
             panel23.Visible = false;
             panelDone.Visible = true;
         }
@@ -280,7 +291,6 @@ namespace Animal_IdentificationKBS
         private void Button69_Click(object sender, EventArgs e)
         {
             ans23 = "no";
-            this.ans24 = "no";
             panel23.Visible = false;
             panelDone.Visible = true;
         }
@@ -298,10 +308,9 @@ namespace Animal_IdentificationKBS
 
         private void Button68_Click_1(object sender, EventArgs e)
         {
-            Form1 f1 = new Form1();
+            
             ans23 = "yes";
-            f1.ans24 = "no";
-            this.ans24 = "no";
+            
             panel23.Visible = false;
             panelDone.Visible = true;
         }
@@ -317,9 +326,16 @@ namespace Animal_IdentificationKBS
             
             
             ans24 = "yes";
-     
+            ans25 = "no";
+            ans26 = "no";
+            ans27 = "no";
+            ans28 = "no";
+            ans29 = "no";
+            ans30 = "no";
+            ans31 = "no";
+
             panel24.Visible = false;
-            panel25.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button73_Click(object sender, EventArgs e)
@@ -366,13 +382,19 @@ namespace Animal_IdentificationKBS
         private void Button75_Click(object sender, EventArgs e)
         {
             ans25 = "yes";
+            ans26 = "no";
+            ans27 = "no";
+            ans28 = "no";
             panel25.Visible = false;
-            panel26.Visible = true;
+            panel29.Visible = true;
         }
 
         private void Button76_Click(object sender, EventArgs e)
         {
             ans25 = "no";
+            ans29 = "no";
+            ans30 = "no";
+            ans31 = "no";
             panel25.Visible = false;
             panel26.Visible = true;
         }
@@ -386,13 +408,15 @@ namespace Animal_IdentificationKBS
         private void Button78_Click(object sender, EventArgs e)
         {
             ans26 = "yes";
+            ans27 = "no";
             panel26.Visible = false;
-            panel27.Visible = true;
+            panel28.Visible = true;
         }
 
         private void Button79_Click(object sender, EventArgs e)
         {
             ans26 = "no";
+            ans28 = "no";
             panel26.Visible = false;
             panel27.Visible = true;
         }
@@ -407,34 +431,34 @@ namespace Animal_IdentificationKBS
         {
             ans27 = "yes";
             panel27.Visible = false;
-            panel28.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button82_Click(object sender, EventArgs e)
         {
             ans27 = "no";
             panel27.Visible = false;
-            panel28.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button83_Click(object sender, EventArgs e)
         {
             panel28.Visible = false;
-            panel27.Visible = true;
+            panel26.Visible = true;
         }
 
         private void Button84_Click(object sender, EventArgs e)
         {
             ans28 = "yes";
             panel28.Visible = false;
-            panel29.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button85_Click(object sender, EventArgs e)
         {
             ans28 = "no";
             panel28.Visible = false;
-            panel29.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Panel28_Paint(object sender, PaintEventArgs e)
@@ -445,14 +469,16 @@ namespace Animal_IdentificationKBS
         private void Button86_Click(object sender, EventArgs e)
         {
             panel29.Visible = false;
-            panel28.Visible = true;
+            panel25.Visible = true;
         }
 
         private void Button87_Click(object sender, EventArgs e)
         {
             ans29 = "yes";
+            ans30 = "no";
+            ans31 = "no";
             panel29.Visible = false;
-            panel30.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button88_Click(object sender, EventArgs e)
@@ -471,8 +497,9 @@ namespace Animal_IdentificationKBS
         private void Button90_Click(object sender, EventArgs e)
         {
             ans30 = "yes";
+            ans31 = "no";
             panel30.Visible = false;
-            panel31.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button91_Click(object sender, EventArgs e)
@@ -511,13 +538,23 @@ namespace Animal_IdentificationKBS
         private void Button95_Click(object sender, EventArgs e)
         {
             ans32 = "yes";
+            ans33 = "no";
+            ans35 = "no";
+            ans36 = "no";
+            ans37 = "no";
+            ans38 = "no";
+            ans39 = "no";
+            ans40 = "no";
+            ans41 = "no";
+            ans42 = "no";
             panel32.Visible = false;
-            panel33.Visible = true;
+            panel34.Visible = true;
         }
 
         private void Button96_Click(object sender, EventArgs e)
         {
             ans32 = "no";
+            ans34 = "no";
             panel32.Visible = false;
             panel33.Visible = true;
         }
@@ -531,53 +568,66 @@ namespace Animal_IdentificationKBS
         private void Button99_Click(object sender, EventArgs e)
         {
             ans33 = "yes";
+            ans35 = "no";
+            ans36 = "no";
+            ans37 = "no";
+            ans38 = "no";
+            ans39 = "no";
+            ans40 = "no";
             panel33.Visible = false;
-            panel34.Visible = true;
+            panel41.Visible = true;
         }
 
         private void Button100_Click(object sender, EventArgs e)
         {
             ans33 = "no";
+            ans41 = "no";
+            ans42 = "no";
             panel33.Visible = false;
-            panel34.Visible = true;
+            panel35.Visible = true;
         }
 
         private void Button101_Click(object sender, EventArgs e)
         {
             panel34.Visible = false;
-            panel33.Visible = true;
+            panel32.Visible = true;
         }
 
         private void Button102_Click(object sender, EventArgs e)
         {
             ans34 = "yes";
             panel34.Visible = false;
-            panel35.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button103_Click(object sender, EventArgs e)
         {
             ans34 = "no";
             panel34.Visible = false;
-            panel35.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button104_Click(object sender, EventArgs e)
         {
             panel35.Visible = false;
-            panel34.Visible = true;
+            panel33.Visible = true;
         }
 
         private void Button105_Click(object sender, EventArgs e)
         {
             ans35 = "yes";
+            ans36 = "no";
+            ans37 = "no";
+            ans38 = "no";
             panel35.Visible = false;
-            panel36.Visible = true;
+            panel39.Visible = true;
         }
 
         private void Button106_Click(object sender, EventArgs e)
         {
             ans35 = "no";
+            ans39 = "no";
+            ans40 = "no";
             panel35.Visible = false;
             panel36.Visible = true;
         }
@@ -598,8 +648,10 @@ namespace Animal_IdentificationKBS
         private void Button109_Click(object sender, EventArgs e)
         {
             ans36 = "no";
+            ans37 = "no";
+            ans38 = "no";
             panel36.Visible = false;
-            panel37.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button110_Click(object sender, EventArgs e)
@@ -611,8 +663,9 @@ namespace Animal_IdentificationKBS
         private void Button111_Click(object sender, EventArgs e)
         {
             ans37 = "yes";
+            ans38 = "no";
             panel37.Visible = false;
-            panel38.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button112_Click(object sender, EventArgs e)
@@ -632,20 +685,20 @@ namespace Animal_IdentificationKBS
         {
             ans38 = "yes";
             panel38.Visible = false;
-            panel39.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button115_Click(object sender, EventArgs e)
         {
             ans38 = "no";
             panel38.Visible = false;
-            panel39.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button116_Click(object sender, EventArgs e)
         {
             panel39.Visible = false;
-            panel38.Visible = true;
+            panel35.Visible = true;
         }
 
         private void Button117_Click(object sender, EventArgs e)
@@ -658,8 +711,9 @@ namespace Animal_IdentificationKBS
         private void Button118_Click(object sender, EventArgs e)
         {
             ans39 = "no";
+            ans40 = "no";
             panel39.Visible = false;
-            panel40.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button119_Click(object sender, EventArgs e)
@@ -672,20 +726,20 @@ namespace Animal_IdentificationKBS
         {
             ans40 = "yes";
             panel40.Visible = false;
-            panel41.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button121_Click(object sender, EventArgs e)
         {
             ans40 = "no";
             panel40.Visible = false;
-            panel41.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button122_Click(object sender, EventArgs e)
         {
             panel41.Visible = false;
-            panel40.Visible = true;
+            panel33.Visible = true;
         }
 
         private void Button123_Click(object sender, EventArgs e)
@@ -698,8 +752,9 @@ namespace Animal_IdentificationKBS
         private void Button124_Click(object sender, EventArgs e)
         {
             ans41 = "no";
+            ans42 = "no";
             panel41.Visible = false;
-            panel42.Visible = true;
+            panelDone.Visible = true;
         }
 
         private void Button125_Click(object sender, EventArgs e)
@@ -742,6 +797,22 @@ namespace Animal_IdentificationKBS
             ans8 = "no";
             panel8.Visible = false;
             panelDone.Visible = true;
+        }
+
+        private void Button130_Click(object sender, EventArgs e)
+        {
+            panelRules.Visible = false;
+            
+        }
+
+        private void Button129_Click(object sender, EventArgs e)
+        {
+            panelRules.Visible = true;
+        }
+
+        private void DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
 
         private void Button48_Click_1(object sender, EventArgs e)
@@ -846,6 +917,8 @@ namespace Animal_IdentificationKBS
         private void Button11_Click(object sender, EventArgs e)
         {
             ans4 = "no";
+            ans6 = "no";
+            ans7 = "no";
             panel4.Visible = false;
             panel5.Visible = true;
         }
@@ -854,7 +927,19 @@ namespace Animal_IdentificationKBS
         {
 
         }
-
+        private void fillDataGridView()
+        {
+            SqlDataAdapter da = new SqlDataAdapter();
+            DataTable dt2 = new DataTable();
+            SqlConnection con = new SqlConnection(@"Data Source=DESKTOP-IBRAHIM\SQLEXPRESS;Initial Catalog=AnimalKBS;Integrated Security=True");
+            con.Open();
+            SqlCommand cmd = new SqlCommand("select * from [dbo].[Animal_KBS] ;", con);
+            
+            dt2.Load(cmd.ExecuteReader());
+           
+            dataGridView1.ReadOnly = true;
+            dataGridView1.DataSource = dt2;
+        }
         private void Button25_Click(object sender, EventArgs e)
         {
             panelDone.Visible = false;
@@ -911,6 +996,7 @@ namespace Animal_IdentificationKBS
             {
                 foreach (DataRow row in dt.Rows)
                 {
+                    label11.Visible = true;
                     if (row["animal_name"].ToString() == "Not animal its Human") {
                         pictureBox1.Load(row["animal_photo"].ToString());
                         label11.Text = row["animal_name"].ToString();
@@ -927,6 +1013,7 @@ namespace Animal_IdentificationKBS
             {
                
                         label49.Visible = true;
+                        label11.Visible = true;
                         label50.Visible = true;
                         pictureBox2.Visible = true;
                         label12.Text = dt.Rows[0][0].ToString();
@@ -943,7 +1030,7 @@ namespace Animal_IdentificationKBS
                         label49.Visible = true;
                         label50.Visible = true;
                         pictureBox2.Visible = true;
-
+                        label11.Visible = true;
                         label51.Visible = true;
                         label52.Visible = true;
                         pictureBox3.Visible = true;
@@ -964,7 +1051,7 @@ namespace Animal_IdentificationKBS
                         label49.Visible = true;
                         label50.Visible = true;
                         pictureBox2.Visible = true;
-
+                        label11.Visible = true;
                         label51.Visible = true;
                         label52.Visible = true;
                         pictureBox3.Visible = true;
@@ -989,6 +1076,7 @@ namespace Animal_IdentificationKBS
             else
             {
                 label12.Visible = false;
+                label11.Visible = true;
                 label11.Text = "Your answers are not suitable for finding an available animal ";
             }
             
@@ -1005,7 +1093,7 @@ namespace Animal_IdentificationKBS
         {
             panel8.Visible = false;
             
-            panel7.Visible = true;
+            panel3.Visible = true;
         }
 
         private void Panel7_Paint(object sender, PaintEventArgs e)
@@ -1016,14 +1104,14 @@ namespace Animal_IdentificationKBS
         private void Button20_Click(object sender, EventArgs e)
         {
             ans7 = "no";
-            panel8.Visible = true;
+            panelDone.Visible = true;
             panel7.Visible = false;
         }
 
         private void Button19_Click(object sender, EventArgs e)
         {
             ans7 = "yes";
-            panel8.Visible = true;
+            panelDone.Visible = true;
             panel7.Visible = false;
         }
 
@@ -1036,14 +1124,14 @@ namespace Animal_IdentificationKBS
         private void Button14_Click(object sender, EventArgs e)
         {
             ans5 = "no";
-            panel6.Visible = true;
+            panelDone.Visible = true;
             panel5.Visible = false;
         }
 
         private void Button13_Click(object sender, EventArgs e)
         {
             ans5 = "yes";
-            panel6.Visible = true;
+            panelDone.Visible = true;
             panel5.Visible = false;
         }
 
@@ -1056,6 +1144,8 @@ namespace Animal_IdentificationKBS
         private void Button17_Click(object sender, EventArgs e)
         {
             ans6 = "no";
+            ans5 = "no";
+            ans8 = "no";
             panel7.Visible = true;
             panel6.Visible = false;
         }
@@ -1063,15 +1153,19 @@ namespace Animal_IdentificationKBS
         private void Button16_Click(object sender, EventArgs e)
         {
             ans6 = "yes";
-            panel7.Visible = true;
+            ans5 = "no";
+            ans7 = "no";
+            ans8 = "no";
             panel6.Visible = false;
+            panelDone.Visible = true;
+            
             
         }
 
         private void Button15_Click(object sender, EventArgs e)
         {
             panel6.Visible = false;
-            panel5.Visible = true;
+            panel4.Visible = true;
         }
 
         private void Btn_min_Click(object sender, EventArgs e)
@@ -1087,8 +1181,9 @@ namespace Animal_IdentificationKBS
         private void Button10_Click(object sender, EventArgs e)
         {
             ans4 = "yes";
+            ans5 = "no";
             panel4.Visible = false;
-            panel5.Visible = true;
+            panel6.Visible = true;
         }
 
         private void Button9_Click(object sender, EventArgs e)
@@ -1100,6 +1195,7 @@ namespace Animal_IdentificationKBS
         private void Button8_Click(object sender, EventArgs e)
         {
             ans3 = "no";
+            ans8 = "no";
             panel3.Visible = false;
             panel4.Visible = true;
         }
@@ -1107,8 +1203,12 @@ namespace Animal_IdentificationKBS
         private void Button7_Click(object sender, EventArgs e)
         {
             ans3 = "yes";
+            ans4 = "no";
+            ans5 = "no";
+            ans6 = "no";
+            ans7 = "no";
             panel3.Visible = false;
-            panel4.Visible = true;
+            panel8.Visible = true;
         }
 
         private void Button5_Click(object sender, EventArgs e)
@@ -1171,7 +1271,7 @@ namespace Animal_IdentificationKBS
             panel9.Visible = true;
         }
 
-        List<string> Q = new List<string>();
+       
         
         
         private void Qu(Boolean backbone)
@@ -1274,13 +1374,15 @@ namespace Animal_IdentificationKBS
             ans40 = "";
             ans41 = "";
             ans42 = "";
+            label11.Visible=false;
             label12.Text = "";
 
             label49.Text="";
-            
+            label50.Visible = false;
             label51.Text = "";
-            
+            label52.Visible = false;
             label53.Text = "";
+            label54.Visible = false;
             pictureBox1.Image = null;
             pictureBox2.Image = null;
             pictureBox2.Image = null;
@@ -1361,9 +1463,11 @@ namespace Animal_IdentificationKBS
             InitializeComponent();
         }
 
+
         private void Form1_Load(object sender, EventArgs e)
         {
-            
+            fillDataGridView();
+
             panel2.Visible = false;
             panel3.Visible = false;
             panel4.Visible = false;
@@ -1407,6 +1511,7 @@ namespace Animal_IdentificationKBS
             panel42.Visible = false;
             panelDone.Visible = false;
             panelResult.Visible = false;
+            panelRules.Visible = false;
 
             label49.Visible = false;
             label50.Visible = false;

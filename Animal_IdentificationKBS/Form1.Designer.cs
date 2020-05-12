@@ -29,6 +29,10 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
@@ -37,37 +41,30 @@
             this.panel1 = new System.Windows.Forms.Panel();
             this.button1 = new System.Windows.Forms.Button();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.button4 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.label3 = new System.Windows.Forms.Label();
             this.button3 = new System.Windows.Forms.Button();
             this.panel3 = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
             this.button7 = new System.Windows.Forms.Button();
             this.label4 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
-            this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
             this.label5 = new System.Windows.Forms.Label();
             this.button11 = new System.Windows.Forms.Button();
             this.panel5 = new System.Windows.Forms.Panel();
-            this.button12 = new System.Windows.Forms.Button();
             this.button13 = new System.Windows.Forms.Button();
             this.label6 = new System.Windows.Forms.Label();
             this.button14 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
-            this.button15 = new System.Windows.Forms.Button();
             this.button16 = new System.Windows.Forms.Button();
             this.label7 = new System.Windows.Forms.Label();
             this.button17 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
-            this.button18 = new System.Windows.Forms.Button();
             this.button19 = new System.Windows.Forms.Button();
             this.label8 = new System.Windows.Forms.Label();
             this.button20 = new System.Windows.Forms.Button();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.button21 = new System.Windows.Forms.Button();
             this.button22 = new System.Windows.Forms.Button();
             this.label9 = new System.Windows.Forms.Label();
             this.button23 = new System.Windows.Forms.Button();
@@ -75,197 +72,209 @@
             this.button25 = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.panelResult = new System.Windows.Forms.Panel();
+            this.label53 = new System.Windows.Forms.Label();
+            this.label54 = new System.Windows.Forms.Label();
+            this.label51 = new System.Windows.Forms.Label();
+            this.label52 = new System.Windows.Forms.Label();
+            this.label49 = new System.Windows.Forms.Label();
+            this.label50 = new System.Windows.Forms.Label();
             this.button70 = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button24 = new System.Windows.Forms.Button();
             this.button26 = new System.Windows.Forms.Button();
             this.label13 = new System.Windows.Forms.Label();
             this.button27 = new System.Windows.Forms.Button();
             this.panel10 = new System.Windows.Forms.Panel();
-            this.button28 = new System.Windows.Forms.Button();
             this.button29 = new System.Windows.Forms.Button();
             this.label14 = new System.Windows.Forms.Label();
             this.button30 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
-            this.button31 = new System.Windows.Forms.Button();
             this.button32 = new System.Windows.Forms.Button();
             this.label15 = new System.Windows.Forms.Label();
             this.button33 = new System.Windows.Forms.Button();
             this.panel12 = new System.Windows.Forms.Panel();
-            this.button34 = new System.Windows.Forms.Button();
             this.button35 = new System.Windows.Forms.Button();
             this.label16 = new System.Windows.Forms.Label();
             this.button36 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
-            this.button37 = new System.Windows.Forms.Button();
             this.button38 = new System.Windows.Forms.Button();
             this.label17 = new System.Windows.Forms.Label();
             this.button39 = new System.Windows.Forms.Button();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.button40 = new System.Windows.Forms.Button();
             this.button41 = new System.Windows.Forms.Button();
             this.label18 = new System.Windows.Forms.Label();
             this.button42 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
-            this.button43 = new System.Windows.Forms.Button();
             this.button44 = new System.Windows.Forms.Button();
             this.label19 = new System.Windows.Forms.Label();
             this.button45 = new System.Windows.Forms.Button();
             this.panel16 = new System.Windows.Forms.Panel();
-            this.button46 = new System.Windows.Forms.Button();
             this.button47 = new System.Windows.Forms.Button();
             this.label20 = new System.Windows.Forms.Label();
             this.button48 = new System.Windows.Forms.Button();
             this.panel17 = new System.Windows.Forms.Panel();
-            this.button49 = new System.Windows.Forms.Button();
             this.button50 = new System.Windows.Forms.Button();
             this.label21 = new System.Windows.Forms.Label();
             this.button51 = new System.Windows.Forms.Button();
             this.panel18 = new System.Windows.Forms.Panel();
-            this.button52 = new System.Windows.Forms.Button();
             this.button53 = new System.Windows.Forms.Button();
             this.label22 = new System.Windows.Forms.Label();
             this.button54 = new System.Windows.Forms.Button();
             this.panel19 = new System.Windows.Forms.Panel();
-            this.button55 = new System.Windows.Forms.Button();
             this.button56 = new System.Windows.Forms.Button();
             this.label23 = new System.Windows.Forms.Label();
             this.button57 = new System.Windows.Forms.Button();
             this.panel20 = new System.Windows.Forms.Panel();
-            this.button58 = new System.Windows.Forms.Button();
             this.button59 = new System.Windows.Forms.Button();
             this.label24 = new System.Windows.Forms.Label();
             this.button60 = new System.Windows.Forms.Button();
             this.panel21 = new System.Windows.Forms.Panel();
-            this.button61 = new System.Windows.Forms.Button();
             this.button62 = new System.Windows.Forms.Button();
             this.label25 = new System.Windows.Forms.Label();
             this.button63 = new System.Windows.Forms.Button();
             this.panel22 = new System.Windows.Forms.Panel();
-            this.button64 = new System.Windows.Forms.Button();
             this.button65 = new System.Windows.Forms.Button();
             this.label26 = new System.Windows.Forms.Label();
             this.button66 = new System.Windows.Forms.Button();
             this.panel23 = new System.Windows.Forms.Panel();
-            this.button67 = new System.Windows.Forms.Button();
             this.button68 = new System.Windows.Forms.Button();
             this.label27 = new System.Windows.Forms.Label();
             this.button69 = new System.Windows.Forms.Button();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.button71 = new System.Windows.Forms.Button();
             this.button72 = new System.Windows.Forms.Button();
             this.label28 = new System.Windows.Forms.Label();
             this.button73 = new System.Windows.Forms.Button();
             this.panel25 = new System.Windows.Forms.Panel();
-            this.button74 = new System.Windows.Forms.Button();
             this.button75 = new System.Windows.Forms.Button();
             this.label29 = new System.Windows.Forms.Label();
             this.button76 = new System.Windows.Forms.Button();
             this.panel26 = new System.Windows.Forms.Panel();
-            this.button77 = new System.Windows.Forms.Button();
             this.button78 = new System.Windows.Forms.Button();
             this.label30 = new System.Windows.Forms.Label();
             this.button79 = new System.Windows.Forms.Button();
             this.panel27 = new System.Windows.Forms.Panel();
-            this.button80 = new System.Windows.Forms.Button();
             this.button81 = new System.Windows.Forms.Button();
             this.label31 = new System.Windows.Forms.Label();
             this.button82 = new System.Windows.Forms.Button();
             this.panel28 = new System.Windows.Forms.Panel();
-            this.button83 = new System.Windows.Forms.Button();
             this.button84 = new System.Windows.Forms.Button();
             this.label32 = new System.Windows.Forms.Label();
             this.button85 = new System.Windows.Forms.Button();
             this.panel29 = new System.Windows.Forms.Panel();
-            this.button86 = new System.Windows.Forms.Button();
             this.button87 = new System.Windows.Forms.Button();
             this.label33 = new System.Windows.Forms.Label();
             this.button88 = new System.Windows.Forms.Button();
             this.panel30 = new System.Windows.Forms.Panel();
-            this.button89 = new System.Windows.Forms.Button();
             this.button90 = new System.Windows.Forms.Button();
             this.label34 = new System.Windows.Forms.Label();
             this.button91 = new System.Windows.Forms.Button();
             this.panel31 = new System.Windows.Forms.Panel();
-            this.button92 = new System.Windows.Forms.Button();
             this.button93 = new System.Windows.Forms.Button();
             this.label35 = new System.Windows.Forms.Label();
             this.button94 = new System.Windows.Forms.Button();
             this.panel32 = new System.Windows.Forms.Panel();
-            this.button97 = new System.Windows.Forms.Button();
             this.button95 = new System.Windows.Forms.Button();
             this.label36 = new System.Windows.Forms.Label();
             this.button96 = new System.Windows.Forms.Button();
             this.panel33 = new System.Windows.Forms.Panel();
-            this.button98 = new System.Windows.Forms.Button();
             this.button99 = new System.Windows.Forms.Button();
             this.label37 = new System.Windows.Forms.Label();
             this.button100 = new System.Windows.Forms.Button();
             this.panel34 = new System.Windows.Forms.Panel();
-            this.button101 = new System.Windows.Forms.Button();
             this.button102 = new System.Windows.Forms.Button();
             this.label38 = new System.Windows.Forms.Label();
             this.button103 = new System.Windows.Forms.Button();
             this.panel35 = new System.Windows.Forms.Panel();
-            this.button104 = new System.Windows.Forms.Button();
             this.button105 = new System.Windows.Forms.Button();
             this.label39 = new System.Windows.Forms.Label();
             this.button106 = new System.Windows.Forms.Button();
             this.panel36 = new System.Windows.Forms.Panel();
-            this.button107 = new System.Windows.Forms.Button();
             this.button108 = new System.Windows.Forms.Button();
             this.label40 = new System.Windows.Forms.Label();
             this.button109 = new System.Windows.Forms.Button();
             this.panel37 = new System.Windows.Forms.Panel();
-            this.button110 = new System.Windows.Forms.Button();
             this.button111 = new System.Windows.Forms.Button();
             this.label41 = new System.Windows.Forms.Label();
             this.button112 = new System.Windows.Forms.Button();
             this.panel38 = new System.Windows.Forms.Panel();
-            this.button113 = new System.Windows.Forms.Button();
             this.button114 = new System.Windows.Forms.Button();
             this.label42 = new System.Windows.Forms.Label();
             this.button115 = new System.Windows.Forms.Button();
             this.panel39 = new System.Windows.Forms.Panel();
-            this.button116 = new System.Windows.Forms.Button();
             this.button117 = new System.Windows.Forms.Button();
             this.label43 = new System.Windows.Forms.Label();
             this.button118 = new System.Windows.Forms.Button();
             this.panel40 = new System.Windows.Forms.Panel();
-            this.button119 = new System.Windows.Forms.Button();
             this.button120 = new System.Windows.Forms.Button();
             this.label44 = new System.Windows.Forms.Label();
             this.button121 = new System.Windows.Forms.Button();
             this.panel41 = new System.Windows.Forms.Panel();
-            this.button122 = new System.Windows.Forms.Button();
             this.button123 = new System.Windows.Forms.Button();
             this.label45 = new System.Windows.Forms.Label();
             this.button124 = new System.Windows.Forms.Button();
             this.panel42 = new System.Windows.Forms.Panel();
-            this.button125 = new System.Windows.Forms.Button();
             this.button126 = new System.Windows.Forms.Button();
             this.label46 = new System.Windows.Forms.Label();
             this.button127 = new System.Windows.Forms.Button();
-            this.button128 = new System.Windows.Forms.Button();
-            this.Logo = new System.Windows.Forms.Button();
-            this.Btn_min = new System.Windows.Forms.Button();
-            this.btn_exit = new System.Windows.Forms.Button();
             this.label47 = new System.Windows.Forms.Label();
             this.label48 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.button129 = new System.Windows.Forms.Button();
+            this.panelRules = new System.Windows.Forms.Panel();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.label55 = new System.Windows.Forms.Label();
+            this.button130 = new System.Windows.Forms.Button();
+            this.button128 = new System.Windows.Forms.Button();
+            this.button116 = new System.Windows.Forms.Button();
+            this.button113 = new System.Windows.Forms.Button();
+            this.button110 = new System.Windows.Forms.Button();
+            this.button107 = new System.Windows.Forms.Button();
+            this.button104 = new System.Windows.Forms.Button();
+            this.button101 = new System.Windows.Forms.Button();
+            this.button98 = new System.Windows.Forms.Button();
+            this.button97 = new System.Windows.Forms.Button();
+            this.button92 = new System.Windows.Forms.Button();
+            this.button89 = new System.Windows.Forms.Button();
+            this.button86 = new System.Windows.Forms.Button();
+            this.button83 = new System.Windows.Forms.Button();
+            this.button80 = new System.Windows.Forms.Button();
+            this.button77 = new System.Windows.Forms.Button();
+            this.button74 = new System.Windows.Forms.Button();
+            this.button71 = new System.Windows.Forms.Button();
+            this.Logo = new System.Windows.Forms.Button();
+            this.Btn_min = new System.Windows.Forms.Button();
+            this.btn_exit = new System.Windows.Forms.Button();
+            this.button67 = new System.Windows.Forms.Button();
+            this.button64 = new System.Windows.Forms.Button();
+            this.button61 = new System.Windows.Forms.Button();
+            this.button58 = new System.Windows.Forms.Button();
+            this.button55 = new System.Windows.Forms.Button();
+            this.button52 = new System.Windows.Forms.Button();
+            this.button49 = new System.Windows.Forms.Button();
+            this.button46 = new System.Windows.Forms.Button();
+            this.button43 = new System.Windows.Forms.Button();
+            this.button40 = new System.Windows.Forms.Button();
+            this.button37 = new System.Windows.Forms.Button();
+            this.button34 = new System.Windows.Forms.Button();
+            this.button31 = new System.Windows.Forms.Button();
+            this.button28 = new System.Windows.Forms.Button();
+            this.button24 = new System.Windows.Forms.Button();
+            this.button21 = new System.Windows.Forms.Button();
+            this.button9 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button15 = new System.Windows.Forms.Button();
+            this.button12 = new System.Windows.Forms.Button();
+            this.button18 = new System.Windows.Forms.Button();
+            this.button125 = new System.Windows.Forms.Button();
+            this.button122 = new System.Windows.Forms.Button();
+            this.button119 = new System.Windows.Forms.Button();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.label49 = new System.Windows.Forms.Label();
-            this.label50 = new System.Windows.Forms.Label();
-            this.label51 = new System.Windows.Forms.Label();
-            this.label52 = new System.Windows.Forms.Label();
-            this.label53 = new System.Windows.Forms.Label();
-            this.label54 = new System.Windows.Forms.Label();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
@@ -310,10 +319,12 @@
             this.panel40.SuspendLayout();
             this.panel41.SuspendLayout();
             this.panel42.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panelRules.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // label2
@@ -404,25 +415,6 @@
             this.panel2.TabIndex = 30;
             this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel2_Paint);
             // 
-            // button4
-            // 
-            this.button4.BackColor = System.Drawing.Color.Transparent;
-            this.button4.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(13, 14);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(36, 44);
-            this.button4.TabIndex = 25;
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.Button4_Click);
-            // 
             // button2
             // 
             this.button2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -475,25 +467,6 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(775, 360);
             this.panel3.TabIndex = 31;
-            // 
-            // button5
-            // 
-            this.button5.BackColor = System.Drawing.Color.Transparent;
-            this.button5.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(13, 14);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(36, 44);
-            this.button5.TabIndex = 25;
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.Button5_Click);
             // 
             // button7
             // 
@@ -548,25 +521,6 @@
             this.panel4.Size = new System.Drawing.Size(775, 360);
             this.panel4.TabIndex = 32;
             // 
-            // button9
-            // 
-            this.button9.BackColor = System.Drawing.Color.Transparent;
-            this.button9.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button9.FlatAppearance.BorderSize = 0;
-            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button9.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button9.ForeColor = System.Drawing.Color.White;
-            this.button9.Location = new System.Drawing.Point(13, 14);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(36, 44);
-            this.button9.TabIndex = 25;
-            this.button9.UseVisualStyleBackColor = false;
-            this.button9.Click += new System.EventHandler(this.Button9_Click);
-            // 
             // button10
             // 
             this.button10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -620,25 +574,6 @@
             this.panel5.Size = new System.Drawing.Size(775, 360);
             this.panel5.TabIndex = 33;
             // 
-            // button12
-            // 
-            this.button12.BackColor = System.Drawing.Color.Transparent;
-            this.button12.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button12.FlatAppearance.BorderSize = 0;
-            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button12.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button12.ForeColor = System.Drawing.Color.White;
-            this.button12.Location = new System.Drawing.Point(13, 14);
-            this.button12.Name = "button12";
-            this.button12.Size = new System.Drawing.Size(36, 44);
-            this.button12.TabIndex = 25;
-            this.button12.UseVisualStyleBackColor = false;
-            this.button12.Click += new System.EventHandler(this.Button12_Click);
-            // 
             // button13
             // 
             this.button13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -691,25 +626,6 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(775, 360);
             this.panel6.TabIndex = 34;
-            // 
-            // button15
-            // 
-            this.button15.BackColor = System.Drawing.Color.Transparent;
-            this.button15.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button15.FlatAppearance.BorderSize = 0;
-            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button15.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button15.ForeColor = System.Drawing.Color.White;
-            this.button15.Location = new System.Drawing.Point(13, 14);
-            this.button15.Name = "button15";
-            this.button15.Size = new System.Drawing.Size(36, 44);
-            this.button15.TabIndex = 25;
-            this.button15.UseVisualStyleBackColor = false;
-            this.button15.Click += new System.EventHandler(this.Button15_Click);
             // 
             // button16
             // 
@@ -765,25 +681,6 @@
             this.panel7.TabIndex = 35;
             this.panel7.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel7_Paint);
             // 
-            // button18
-            // 
-            this.button18.BackColor = System.Drawing.Color.Transparent;
-            this.button18.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button18.FlatAppearance.BorderSize = 0;
-            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button18.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button18.ForeColor = System.Drawing.Color.White;
-            this.button18.Location = new System.Drawing.Point(13, 14);
-            this.button18.Name = "button18";
-            this.button18.Size = new System.Drawing.Size(36, 44);
-            this.button18.TabIndex = 25;
-            this.button18.UseVisualStyleBackColor = false;
-            this.button18.Click += new System.EventHandler(this.Button18_Click);
-            // 
             // button19
             // 
             this.button19.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -806,9 +703,9 @@
             this.label8.ForeColor = System.Drawing.SystemColors.Window;
             this.label8.Location = new System.Drawing.Point(70, 43);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(213, 50);
+            this.label8.Size = new System.Drawing.Size(219, 50);
             this.label8.TabIndex = 6;
-            this.label8.Text = "Q7: Have limbs ?";
+            this.label8.Text = "Q7:  Have limbs ?";
             // 
             // button20
             // 
@@ -837,25 +734,6 @@
             this.panel8.Size = new System.Drawing.Size(775, 360);
             this.panel8.TabIndex = 36;
             this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel8_Paint);
-            // 
-            // button21
-            // 
-            this.button21.BackColor = System.Drawing.Color.Transparent;
-            this.button21.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button21.FlatAppearance.BorderSize = 0;
-            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button21.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button21.ForeColor = System.Drawing.Color.White;
-            this.button21.Location = new System.Drawing.Point(13, 14);
-            this.button21.Name = "button21";
-            this.button21.Size = new System.Drawing.Size(36, 44);
-            this.button21.TabIndex = 25;
-            this.button21.UseVisualStyleBackColor = false;
-            this.button21.Click += new System.EventHandler(this.Button21_Click);
             // 
             // button22
             // 
@@ -956,6 +834,72 @@
             this.panelResult.TabIndex = 38;
             this.panelResult.Paint += new System.Windows.Forms.PaintEventHandler(this.PanelResult_Paint);
             // 
+            // label53
+            // 
+            this.label53.AutoSize = true;
+            this.label53.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label53.ForeColor = System.Drawing.SystemColors.Window;
+            this.label53.Location = new System.Drawing.Point(670, 181);
+            this.label53.Name = "label53";
+            this.label53.Size = new System.Drawing.Size(27, 39);
+            this.label53.TabIndex = 37;
+            this.label53.Text = "  ";
+            // 
+            // label54
+            // 
+            this.label54.AutoSize = true;
+            this.label54.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label54.ForeColor = System.Drawing.SystemColors.Window;
+            this.label54.Location = new System.Drawing.Point(532, 181);
+            this.label54.Name = "label54";
+            this.label54.Size = new System.Drawing.Size(148, 39);
+            this.label54.TabIndex = 36;
+            this.label54.Text = "The Animal is: ";
+            // 
+            // label51
+            // 
+            this.label51.AutoSize = true;
+            this.label51.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label51.ForeColor = System.Drawing.SystemColors.Window;
+            this.label51.Location = new System.Drawing.Point(670, 65);
+            this.label51.Name = "label51";
+            this.label51.Size = new System.Drawing.Size(27, 39);
+            this.label51.TabIndex = 35;
+            this.label51.Text = "  ";
+            // 
+            // label52
+            // 
+            this.label52.AutoSize = true;
+            this.label52.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label52.ForeColor = System.Drawing.SystemColors.Window;
+            this.label52.Location = new System.Drawing.Point(532, 65);
+            this.label52.Name = "label52";
+            this.label52.Size = new System.Drawing.Size(148, 39);
+            this.label52.TabIndex = 34;
+            this.label52.Text = "The Animal is: ";
+            // 
+            // label49
+            // 
+            this.label49.AutoSize = true;
+            this.label49.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label49.ForeColor = System.Drawing.SystemColors.Window;
+            this.label49.Location = new System.Drawing.Point(276, 181);
+            this.label49.Name = "label49";
+            this.label49.Size = new System.Drawing.Size(27, 39);
+            this.label49.TabIndex = 33;
+            this.label49.Text = "  ";
+            // 
+            // label50
+            // 
+            this.label50.AutoSize = true;
+            this.label50.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label50.ForeColor = System.Drawing.SystemColors.Window;
+            this.label50.Location = new System.Drawing.Point(138, 181);
+            this.label50.Name = "label50";
+            this.label50.Size = new System.Drawing.Size(148, 39);
+            this.label50.TabIndex = 32;
+            this.label50.Text = "The Animal is: ";
+            // 
             // button70
             // 
             this.button70.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1005,25 +949,6 @@
             this.panel9.Size = new System.Drawing.Size(775, 360);
             this.panel9.TabIndex = 39;
             // 
-            // button24
-            // 
-            this.button24.BackColor = System.Drawing.Color.Transparent;
-            this.button24.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button24.FlatAppearance.BorderSize = 0;
-            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button24.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button24.ForeColor = System.Drawing.Color.White;
-            this.button24.Location = new System.Drawing.Point(13, 14);
-            this.button24.Name = "button24";
-            this.button24.Size = new System.Drawing.Size(36, 44);
-            this.button24.TabIndex = 25;
-            this.button24.UseVisualStyleBackColor = false;
-            this.button24.Click += new System.EventHandler(this.Button24_Click_1);
-            // 
             // button26
             // 
             this.button26.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1048,7 +973,7 @@
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(208, 50);
             this.label13.TabIndex = 6;
-            this.label13.Text = "Q3: Drinks milk?";
+            this.label13.Text = "Q9: Drinks milk?";
             // 
             // button27
             // 
@@ -1077,25 +1002,6 @@
             this.panel10.Size = new System.Drawing.Size(775, 360);
             this.panel10.TabIndex = 40;
             // 
-            // button28
-            // 
-            this.button28.BackColor = System.Drawing.Color.Transparent;
-            this.button28.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button28.FlatAppearance.BorderSize = 0;
-            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button28.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button28.ForeColor = System.Drawing.Color.White;
-            this.button28.Location = new System.Drawing.Point(13, 14);
-            this.button28.Name = "button28";
-            this.button28.Size = new System.Drawing.Size(36, 44);
-            this.button28.TabIndex = 25;
-            this.button28.UseVisualStyleBackColor = false;
-            this.button28.Click += new System.EventHandler(this.Button28_Click);
-            // 
             // button29
             // 
             this.button29.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1118,9 +1024,9 @@
             this.label14.ForeColor = System.Drawing.SystemColors.Window;
             this.label14.Location = new System.Drawing.Point(70, 43);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(235, 50);
+            this.label14.Size = new System.Drawing.Size(250, 50);
             this.label14.TabIndex = 6;
-            this.label14.Text = "Q4: Eat red meat ?";
+            this.label14.Text = "Q10: Eat red meat ?";
             // 
             // button30
             // 
@@ -1149,25 +1055,6 @@
             this.panel11.Size = new System.Drawing.Size(775, 360);
             this.panel11.TabIndex = 41;
             // 
-            // button31
-            // 
-            this.button31.BackColor = System.Drawing.Color.Transparent;
-            this.button31.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button31.FlatAppearance.BorderSize = 0;
-            this.button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button31.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button31.ForeColor = System.Drawing.Color.White;
-            this.button31.Location = new System.Drawing.Point(13, 14);
-            this.button31.Name = "button31";
-            this.button31.Size = new System.Drawing.Size(36, 44);
-            this.button31.TabIndex = 25;
-            this.button31.UseVisualStyleBackColor = false;
-            this.button31.Click += new System.EventHandler(this.Button31_Click);
-            // 
             // button32
             // 
             this.button32.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1190,9 +1077,9 @@
             this.label15.ForeColor = System.Drawing.SystemColors.Window;
             this.label15.Location = new System.Drawing.Point(70, 43);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(233, 50);
+            this.label15.Size = new System.Drawing.Size(248, 50);
             this.label15.TabIndex = 6;
-            this.label15.Text = "Q5: Have hooves ?";
+            this.label15.Text = "Q11: Have hooves ?";
             // 
             // button33
             // 
@@ -1221,25 +1108,6 @@
             this.panel12.Size = new System.Drawing.Size(775, 360);
             this.panel12.TabIndex = 41;
             // 
-            // button34
-            // 
-            this.button34.BackColor = System.Drawing.Color.Transparent;
-            this.button34.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button34.FlatAppearance.BorderSize = 0;
-            this.button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button34.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button34.ForeColor = System.Drawing.Color.White;
-            this.button34.Location = new System.Drawing.Point(13, 14);
-            this.button34.Name = "button34";
-            this.button34.Size = new System.Drawing.Size(36, 44);
-            this.button34.TabIndex = 25;
-            this.button34.UseVisualStyleBackColor = false;
-            this.button34.Click += new System.EventHandler(this.Button34_Click);
-            // 
             // button35
             // 
             this.button35.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1262,9 +1130,9 @@
             this.label16.ForeColor = System.Drawing.SystemColors.Window;
             this.label16.Location = new System.Drawing.Point(70, 43);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(227, 50);
+            this.label16.Size = new System.Drawing.Size(242, 50);
             this.label16.TabIndex = 6;
-            this.label16.Text = "Q6: Live in water?";
+            this.label16.Text = "Q12: Live in water?";
             // 
             // button36
             // 
@@ -1293,25 +1161,6 @@
             this.panel13.Size = new System.Drawing.Size(775, 360);
             this.panel13.TabIndex = 41;
             // 
-            // button37
-            // 
-            this.button37.BackColor = System.Drawing.Color.Transparent;
-            this.button37.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button37.FlatAppearance.BorderSize = 0;
-            this.button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button37.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button37.ForeColor = System.Drawing.Color.White;
-            this.button37.Location = new System.Drawing.Point(13, 14);
-            this.button37.Name = "button37";
-            this.button37.Size = new System.Drawing.Size(36, 44);
-            this.button37.TabIndex = 25;
-            this.button37.UseVisualStyleBackColor = false;
-            this.button37.Click += new System.EventHandler(this.Button37_Click);
-            // 
             // button38
             // 
             this.button38.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1334,9 +1183,9 @@
             this.label17.ForeColor = System.Drawing.SystemColors.Window;
             this.label17.Location = new System.Drawing.Point(70, 43);
             this.label17.Name = "label17";
-            this.label17.Size = new System.Drawing.Size(342, 50);
+            this.label17.Size = new System.Drawing.Size(357, 50);
             this.label17.TabIndex = 6;
-            this.label17.Text = "Q7: Have large front teeth ?";
+            this.label17.Text = "Q13: Have large front teeth ?";
             // 
             // button39
             // 
@@ -1365,25 +1214,6 @@
             this.panel14.Size = new System.Drawing.Size(775, 360);
             this.panel14.TabIndex = 41;
             // 
-            // button40
-            // 
-            this.button40.BackColor = System.Drawing.Color.Transparent;
-            this.button40.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button40.FlatAppearance.BorderSize = 0;
-            this.button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button40.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button40.ForeColor = System.Drawing.Color.White;
-            this.button40.Location = new System.Drawing.Point(13, 14);
-            this.button40.Name = "button40";
-            this.button40.Size = new System.Drawing.Size(36, 44);
-            this.button40.TabIndex = 25;
-            this.button40.UseVisualStyleBackColor = false;
-            this.button40.Click += new System.EventHandler(this.Button40_Click);
-            // 
             // button41
             // 
             this.button41.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1406,9 +1236,9 @@
             this.label18.ForeColor = System.Drawing.SystemColors.Window;
             this.label18.Location = new System.Drawing.Point(70, 43);
             this.label18.Name = "label18";
-            this.label18.Size = new System.Drawing.Size(233, 50);
+            this.label18.Size = new System.Drawing.Size(248, 50);
             this.label18.TabIndex = 6;
-            this.label18.Text = "Q8: Have a pouch?";
+            this.label18.Text = "Q14: Have a pouch?";
             // 
             // button42
             // 
@@ -1437,25 +1267,6 @@
             this.panel15.Size = new System.Drawing.Size(775, 360);
             this.panel15.TabIndex = 41;
             // 
-            // button43
-            // 
-            this.button43.BackColor = System.Drawing.Color.Transparent;
-            this.button43.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button43.FlatAppearance.BorderSize = 0;
-            this.button43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button43.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button43.ForeColor = System.Drawing.Color.White;
-            this.button43.Location = new System.Drawing.Point(13, 14);
-            this.button43.Name = "button43";
-            this.button43.Size = new System.Drawing.Size(36, 44);
-            this.button43.TabIndex = 25;
-            this.button43.UseVisualStyleBackColor = false;
-            this.button43.Click += new System.EventHandler(this.Button43_Click);
-            // 
             // button44
             // 
             this.button44.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1478,9 +1289,9 @@
             this.label19.ForeColor = System.Drawing.SystemColors.Window;
             this.label19.Location = new System.Drawing.Point(70, 43);
             this.label19.Name = "label19";
-            this.label19.Size = new System.Drawing.Size(253, 50);
+            this.label19.Size = new System.Drawing.Size(268, 50);
             this.label19.TabIndex = 6;
-            this.label19.Text = "Q9: Have large ear ?";
+            this.label19.Text = "Q15: Have large ear ?";
             // 
             // button45
             // 
@@ -1509,25 +1320,6 @@
             this.panel16.Size = new System.Drawing.Size(775, 360);
             this.panel16.TabIndex = 41;
             // 
-            // button46
-            // 
-            this.button46.BackColor = System.Drawing.Color.Transparent;
-            this.button46.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button46.FlatAppearance.BorderSize = 0;
-            this.button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button46.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button46.ForeColor = System.Drawing.Color.White;
-            this.button46.Location = new System.Drawing.Point(13, 14);
-            this.button46.Name = "button46";
-            this.button46.Size = new System.Drawing.Size(36, 44);
-            this.button46.TabIndex = 25;
-            this.button46.UseVisualStyleBackColor = false;
-            this.button46.Click += new System.EventHandler(this.Button46_Click);
-            // 
             // button47
             // 
             this.button47.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1552,7 +1344,7 @@
             this.label20.Name = "label20";
             this.label20.Size = new System.Drawing.Size(344, 50);
             this.label20.TabIndex = 6;
-            this.label20.Text = "Q10: commercially hunted ?";
+            this.label20.Text = "Q16: commercially hunted ?";
             // 
             // button48
             // 
@@ -1581,25 +1373,6 @@
             this.panel17.Size = new System.Drawing.Size(775, 360);
             this.panel17.TabIndex = 41;
             // 
-            // button49
-            // 
-            this.button49.BackColor = System.Drawing.Color.Transparent;
-            this.button49.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button49.FlatAppearance.BorderSize = 0;
-            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button49.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button49.ForeColor = System.Drawing.Color.White;
-            this.button49.Location = new System.Drawing.Point(13, 14);
-            this.button49.Name = "button49";
-            this.button49.Size = new System.Drawing.Size(36, 44);
-            this.button49.TabIndex = 25;
-            this.button49.UseVisualStyleBackColor = false;
-            this.button49.Click += new System.EventHandler(this.Button49_Click);
-            // 
             // button50
             // 
             this.button50.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1622,9 +1395,9 @@
             this.label21.ForeColor = System.Drawing.SystemColors.Window;
             this.label21.Location = new System.Drawing.Point(70, 43);
             this.label21.Name = "label21";
-            this.label21.Size = new System.Drawing.Size(318, 50);
+            this.label21.Size = new System.Drawing.Size(333, 50);
             this.label21.TabIndex = 6;
-            this.label21.Text = "Q6: Two hooves per foot ?";
+            this.label21.Text = "Q17: Two hooves per foot ?";
             // 
             // button51
             // 
@@ -1653,25 +1426,6 @@
             this.panel18.Size = new System.Drawing.Size(775, 360);
             this.panel18.TabIndex = 41;
             // 
-            // button52
-            // 
-            this.button52.BackColor = System.Drawing.Color.Transparent;
-            this.button52.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button52.FlatAppearance.BorderSize = 0;
-            this.button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button52.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button52.ForeColor = System.Drawing.Color.White;
-            this.button52.Location = new System.Drawing.Point(13, 14);
-            this.button52.Name = "button52";
-            this.button52.Size = new System.Drawing.Size(36, 44);
-            this.button52.TabIndex = 25;
-            this.button52.UseVisualStyleBackColor = false;
-            this.button52.Click += new System.EventHandler(this.Button52_Click);
-            // 
             // button53
             // 
             this.button53.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1694,9 +1448,9 @@
             this.label22.ForeColor = System.Drawing.SystemColors.Window;
             this.label22.Location = new System.Drawing.Point(70, 43);
             this.label22.Name = "label22";
-            this.label22.Size = new System.Drawing.Size(466, 50);
+            this.label22.Size = new System.Drawing.Size(481, 50);
             this.label22.TabIndex = 6;
-            this.label22.Text = "Q7: Covered with a protective plating ?";
+            this.label22.Text = "Q18: Covered with a protective plating ?";
             // 
             // button54
             // 
@@ -1725,25 +1479,6 @@
             this.panel19.Size = new System.Drawing.Size(775, 360);
             this.panel19.TabIndex = 41;
             // 
-            // button55
-            // 
-            this.button55.BackColor = System.Drawing.Color.Transparent;
-            this.button55.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button55.FlatAppearance.BorderSize = 0;
-            this.button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button55.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button55.ForeColor = System.Drawing.Color.White;
-            this.button55.Location = new System.Drawing.Point(13, 14);
-            this.button55.Name = "button55";
-            this.button55.Size = new System.Drawing.Size(36, 44);
-            this.button55.TabIndex = 25;
-            this.button55.UseVisualStyleBackColor = false;
-            this.button55.Click += new System.EventHandler(this.Button55_Click);
-            // 
             // button56
             // 
             this.button56.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1766,9 +1501,9 @@
             this.label23.ForeColor = System.Drawing.SystemColors.Window;
             this.label23.Location = new System.Drawing.Point(70, 43);
             this.label23.Name = "label23";
-            this.label23.Size = new System.Drawing.Size(155, 50);
+            this.label23.Size = new System.Drawing.Size(170, 50);
             this.label23.TabIndex = 6;
-            this.label23.Text = "Q8: Horns ?";
+            this.label23.Text = "Q19: Horns ?";
             // 
             // button57
             // 
@@ -1797,25 +1532,6 @@
             this.panel20.Size = new System.Drawing.Size(775, 360);
             this.panel20.TabIndex = 41;
             // 
-            // button58
-            // 
-            this.button58.BackColor = System.Drawing.Color.Transparent;
-            this.button58.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button58.FlatAppearance.BorderSize = 0;
-            this.button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button58.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button58.ForeColor = System.Drawing.Color.White;
-            this.button58.Location = new System.Drawing.Point(13, 14);
-            this.button58.Name = "button58";
-            this.button58.Size = new System.Drawing.Size(36, 44);
-            this.button58.TabIndex = 25;
-            this.button58.UseVisualStyleBackColor = false;
-            this.button58.Click += new System.EventHandler(this.Button58_Click);
-            // 
             // button59
             // 
             this.button59.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1838,9 +1554,9 @@
             this.label24.ForeColor = System.Drawing.SystemColors.Window;
             this.label24.Location = new System.Drawing.Point(70, 43);
             this.label24.Name = "label24";
-            this.label24.Size = new System.Drawing.Size(239, 50);
+            this.label24.Size = new System.Drawing.Size(254, 50);
             this.label24.TabIndex = 6;
-            this.label24.Text = "Q9: Live in desert ?";
+            this.label24.Text = "Q20: Live in desert ?";
             // 
             // button60
             // 
@@ -1869,25 +1585,6 @@
             this.panel21.Size = new System.Drawing.Size(775, 360);
             this.panel21.TabIndex = 41;
             // 
-            // button61
-            // 
-            this.button61.BackColor = System.Drawing.Color.Transparent;
-            this.button61.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button61.FlatAppearance.BorderSize = 0;
-            this.button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button61.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button61.ForeColor = System.Drawing.Color.White;
-            this.button61.Location = new System.Drawing.Point(13, 14);
-            this.button61.Name = "button61";
-            this.button61.Size = new System.Drawing.Size(36, 44);
-            this.button61.TabIndex = 25;
-            this.button61.UseVisualStyleBackColor = false;
-            this.button61.Click += new System.EventHandler(this.Button61_Click);
-            // 
             // button62
             // 
             this.button62.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1912,7 +1609,7 @@
             this.label25.Name = "label25";
             this.label25.Size = new System.Drawing.Size(203, 50);
             this.label25.TabIndex = 6;
-            this.label25.Text = "Q10: one horn ?";
+            this.label25.Text = "Q21: one horn ?";
             // 
             // button63
             // 
@@ -1941,25 +1638,6 @@
             this.panel22.Size = new System.Drawing.Size(775, 360);
             this.panel22.TabIndex = 41;
             // 
-            // button64
-            // 
-            this.button64.BackColor = System.Drawing.Color.Transparent;
-            this.button64.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button64.FlatAppearance.BorderSize = 0;
-            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button64.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button64.ForeColor = System.Drawing.Color.White;
-            this.button64.Location = new System.Drawing.Point(13, 14);
-            this.button64.Name = "button64";
-            this.button64.Size = new System.Drawing.Size(36, 44);
-            this.button64.TabIndex = 25;
-            this.button64.UseVisualStyleBackColor = false;
-            this.button64.Click += new System.EventHandler(this.Button64_Click);
-            // 
             // button65
             // 
             this.button65.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -1984,7 +1662,7 @@
             this.label26.Name = "label26";
             this.label26.Size = new System.Drawing.Size(235, 50);
             this.label26.TabIndex = 6;
-            this.label26.Text = "Q11: Have fleece ?";
+            this.label26.Text = "Q22: Have fleece ?";
             // 
             // button66
             // 
@@ -2013,25 +1691,6 @@
             this.panel23.Size = new System.Drawing.Size(775, 360);
             this.panel23.TabIndex = 41;
             // 
-            // button67
-            // 
-            this.button67.BackColor = System.Drawing.Color.Transparent;
-            this.button67.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button67.FlatAppearance.BorderSize = 0;
-            this.button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button67.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button67.ForeColor = System.Drawing.Color.White;
-            this.button67.Location = new System.Drawing.Point(13, 14);
-            this.button67.Name = "button67";
-            this.button67.Size = new System.Drawing.Size(36, 44);
-            this.button67.TabIndex = 25;
-            this.button67.UseVisualStyleBackColor = false;
-            this.button67.Click += new System.EventHandler(this.Button67_Click);
-            // 
             // button68
             // 
             this.button68.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2056,7 +1715,7 @@
             this.label27.Name = "label27";
             this.label27.Size = new System.Drawing.Size(252, 50);
             this.label27.TabIndex = 6;
-            this.label27.Text = "Q12: domesticated?";
+            this.label27.Text = "Q23: domesticated?";
             // 
             // button69
             // 
@@ -2085,25 +1744,6 @@
             this.panel24.Size = new System.Drawing.Size(775, 360);
             this.panel24.TabIndex = 42;
             // 
-            // button71
-            // 
-            this.button71.BackColor = System.Drawing.Color.Transparent;
-            this.button71.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button71.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button71.FlatAppearance.BorderSize = 0;
-            this.button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button71.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button71.ForeColor = System.Drawing.Color.White;
-            this.button71.Location = new System.Drawing.Point(13, 14);
-            this.button71.Name = "button71";
-            this.button71.Size = new System.Drawing.Size(36, 44);
-            this.button71.TabIndex = 25;
-            this.button71.UseVisualStyleBackColor = false;
-            this.button71.Click += new System.EventHandler(this.Button71_Click);
-            // 
             // button72
             // 
             this.button72.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2126,9 +1766,9 @@
             this.label28.ForeColor = System.Drawing.SystemColors.Window;
             this.label28.Location = new System.Drawing.Point(70, 43);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(113, 50);
+            this.label28.Size = new System.Drawing.Size(128, 50);
             this.label28.TabIndex = 6;
-            this.label28.Text = "Q5: Fly?";
+            this.label28.Text = "Q24: Fly?";
             // 
             // button73
             // 
@@ -2157,25 +1797,6 @@
             this.panel25.Size = new System.Drawing.Size(775, 360);
             this.panel25.TabIndex = 41;
             // 
-            // button74
-            // 
-            this.button74.BackColor = System.Drawing.Color.Transparent;
-            this.button74.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button74.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button74.FlatAppearance.BorderSize = 0;
-            this.button74.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button74.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button74.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button74.ForeColor = System.Drawing.Color.White;
-            this.button74.Location = new System.Drawing.Point(13, 14);
-            this.button74.Name = "button74";
-            this.button74.Size = new System.Drawing.Size(36, 44);
-            this.button74.TabIndex = 25;
-            this.button74.UseVisualStyleBackColor = false;
-            this.button74.Click += new System.EventHandler(this.Button74_Click);
-            // 
             // button75
             // 
             this.button75.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2198,9 +1819,9 @@
             this.label29.ForeColor = System.Drawing.SystemColors.Window;
             this.label29.Location = new System.Drawing.Point(70, 43);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(272, 50);
+            this.label29.Size = new System.Drawing.Size(287, 50);
             this.label29.TabIndex = 6;
-            this.label29.Text = "Q6: opposing thumb ?";
+            this.label29.Text = "Q25: opposing thumb ?";
             // 
             // button76
             // 
@@ -2229,25 +1850,6 @@
             this.panel26.Size = new System.Drawing.Size(775, 360);
             this.panel26.TabIndex = 42;
             // 
-            // button77
-            // 
-            this.button77.BackColor = System.Drawing.Color.Transparent;
-            this.button77.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button77.FlatAppearance.BorderSize = 0;
-            this.button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button77.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button77.ForeColor = System.Drawing.Color.White;
-            this.button77.Location = new System.Drawing.Point(13, 14);
-            this.button77.Name = "button77";
-            this.button77.Size = new System.Drawing.Size(36, 44);
-            this.button77.TabIndex = 25;
-            this.button77.UseVisualStyleBackColor = false;
-            this.button77.Click += new System.EventHandler(this.Button77_Click);
-            // 
             // button78
             // 
             this.button78.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2270,9 +1872,9 @@
             this.label30.ForeColor = System.Drawing.SystemColors.Window;
             this.label30.Location = new System.Drawing.Point(70, 43);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(322, 50);
+            this.label30.Size = new System.Drawing.Size(337, 50);
             this.label30.TabIndex = 6;
-            this.label30.Text = "Q7: weight >400 pounds ?";
+            this.label30.Text = "Q26: weight >400 pounds ?";
             // 
             // button79
             // 
@@ -2301,25 +1903,6 @@
             this.panel27.Size = new System.Drawing.Size(775, 360);
             this.panel27.TabIndex = 42;
             // 
-            // button80
-            // 
-            this.button80.BackColor = System.Drawing.Color.Transparent;
-            this.button80.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button80.FlatAppearance.BorderSize = 0;
-            this.button80.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button80.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button80.ForeColor = System.Drawing.Color.White;
-            this.button80.Location = new System.Drawing.Point(13, 14);
-            this.button80.Name = "button80";
-            this.button80.Size = new System.Drawing.Size(36, 44);
-            this.button80.TabIndex = 25;
-            this.button80.UseVisualStyleBackColor = false;
-            this.button80.Click += new System.EventHandler(this.Button80_Click);
-            // 
             // button81
             // 
             this.button81.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2342,9 +1925,9 @@
             this.label31.ForeColor = System.Drawing.SystemColors.Window;
             this.label31.Location = new System.Drawing.Point(70, 43);
             this.label31.Name = "label31";
-            this.label31.Size = new System.Drawing.Size(174, 50);
+            this.label31.Size = new System.Drawing.Size(189, 50);
             this.label31.TabIndex = 6;
-            this.label31.Text = "Q8: thin tail ?";
+            this.label31.Text = "Q27: thin tail ?";
             // 
             // button82
             // 
@@ -2374,25 +1957,6 @@
             this.panel28.TabIndex = 42;
             this.panel28.Paint += new System.Windows.Forms.PaintEventHandler(this.Panel28_Paint);
             // 
-            // button83
-            // 
-            this.button83.BackColor = System.Drawing.Color.Transparent;
-            this.button83.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button83.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button83.FlatAppearance.BorderSize = 0;
-            this.button83.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button83.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button83.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button83.ForeColor = System.Drawing.Color.White;
-            this.button83.Location = new System.Drawing.Point(13, 14);
-            this.button83.Name = "button83";
-            this.button83.Size = new System.Drawing.Size(36, 44);
-            this.button83.TabIndex = 25;
-            this.button83.UseVisualStyleBackColor = false;
-            this.button83.Click += new System.EventHandler(this.Button83_Click);
-            // 
             // button84
             // 
             this.button84.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2415,9 +1979,9 @@
             this.label32.ForeColor = System.Drawing.SystemColors.Window;
             this.label32.Location = new System.Drawing.Point(70, 43);
             this.label32.Name = "label32";
-            this.label32.Size = new System.Drawing.Size(210, 50);
+            this.label32.Size = new System.Drawing.Size(225, 50);
             this.label32.TabIndex = 6;
-            this.label32.Text = "Q9: land based ?";
+            this.label32.Text = "Q28: land based ?";
             // 
             // button85
             // 
@@ -2446,25 +2010,6 @@
             this.panel29.Size = new System.Drawing.Size(775, 360);
             this.panel29.TabIndex = 42;
             // 
-            // button86
-            // 
-            this.button86.BackColor = System.Drawing.Color.Transparent;
-            this.button86.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button86.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button86.FlatAppearance.BorderSize = 0;
-            this.button86.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button86.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button86.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button86.ForeColor = System.Drawing.Color.White;
-            this.button86.Location = new System.Drawing.Point(13, 14);
-            this.button86.Name = "button86";
-            this.button86.Size = new System.Drawing.Size(36, 44);
-            this.button86.TabIndex = 25;
-            this.button86.UseVisualStyleBackColor = false;
-            this.button86.Click += new System.EventHandler(this.Button86_Click);
-            // 
             // button87
             // 
             this.button87.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2489,7 +2034,7 @@
             this.label33.Name = "label33";
             this.label33.Size = new System.Drawing.Size(267, 50);
             this.label33.TabIndex = 6;
-            this.label33.Text = "Q10: Prehensile tail ?";
+            this.label33.Text = "Q29: Prehensile tail ?";
             // 
             // button88
             // 
@@ -2518,25 +2063,6 @@
             this.panel30.Size = new System.Drawing.Size(775, 360);
             this.panel30.TabIndex = 42;
             // 
-            // button89
-            // 
-            this.button89.BackColor = System.Drawing.Color.Transparent;
-            this.button89.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button89.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button89.FlatAppearance.BorderSize = 0;
-            this.button89.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button89.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button89.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button89.ForeColor = System.Drawing.Color.White;
-            this.button89.Location = new System.Drawing.Point(13, 14);
-            this.button89.Name = "button89";
-            this.button89.Size = new System.Drawing.Size(36, 44);
-            this.button89.TabIndex = 25;
-            this.button89.UseVisualStyleBackColor = false;
-            this.button89.Click += new System.EventHandler(this.Button89_Click);
-            // 
             // button90
             // 
             this.button90.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2561,7 +2087,7 @@
             this.label34.Name = "label34";
             this.label34.Size = new System.Drawing.Size(271, 50);
             this.label34.TabIndex = 6;
-            this.label34.Text = "Q11: nearly hairless ?";
+            this.label34.Text = "Q30: nearly hairless ?";
             // 
             // button91
             // 
@@ -2590,25 +2116,6 @@
             this.panel31.Size = new System.Drawing.Size(775, 360);
             this.panel31.TabIndex = 42;
             // 
-            // button92
-            // 
-            this.button92.BackColor = System.Drawing.Color.Transparent;
-            this.button92.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button92.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button92.FlatAppearance.BorderSize = 0;
-            this.button92.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button92.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button92.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button92.ForeColor = System.Drawing.Color.White;
-            this.button92.Location = new System.Drawing.Point(13, 14);
-            this.button92.Name = "button92";
-            this.button92.Size = new System.Drawing.Size(36, 44);
-            this.button92.TabIndex = 25;
-            this.button92.UseVisualStyleBackColor = false;
-            this.button92.Click += new System.EventHandler(this.Button92_Click);
-            // 
             // button93
             // 
             this.button93.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2633,7 +2140,7 @@
             this.label35.Name = "label35";
             this.label35.Size = new System.Drawing.Size(270, 50);
             this.label35.TabIndex = 6;
-            this.label35.Text = "Q12: powerful arms ?";
+            this.label35.Text = "Q31: powerful arms ?";
             // 
             // button94
             // 
@@ -2662,25 +2169,6 @@
             this.panel32.Size = new System.Drawing.Size(775, 360);
             this.panel32.TabIndex = 30;
             // 
-            // button97
-            // 
-            this.button97.BackColor = System.Drawing.Color.Transparent;
-            this.button97.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button97.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button97.FlatAppearance.BorderSize = 0;
-            this.button97.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button97.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button97.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button97.ForeColor = System.Drawing.Color.White;
-            this.button97.Location = new System.Drawing.Point(13, 14);
-            this.button97.Name = "button97";
-            this.button97.Size = new System.Drawing.Size(36, 44);
-            this.button97.TabIndex = 26;
-            this.button97.UseVisualStyleBackColor = false;
-            this.button97.Click += new System.EventHandler(this.Button97_Click);
-            // 
             // button95
             // 
             this.button95.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2703,9 +2191,9 @@
             this.label36.ForeColor = System.Drawing.SystemColors.Window;
             this.label36.Location = new System.Drawing.Point(70, 43);
             this.label36.Name = "label36";
-            this.label36.Size = new System.Drawing.Size(313, 50);
+            this.label36.Size = new System.Drawing.Size(328, 50);
             this.label36.TabIndex = 6;
-            this.label36.Text = "Q2: Live primarily in soil ?";
+            this.label36.Text = "Q32: Live primarily in soil ?";
             // 
             // button96
             // 
@@ -2734,25 +2222,6 @@
             this.panel33.Size = new System.Drawing.Size(775, 360);
             this.panel33.TabIndex = 31;
             // 
-            // button98
-            // 
-            this.button98.BackColor = System.Drawing.Color.Transparent;
-            this.button98.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button98.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button98.FlatAppearance.BorderSize = 0;
-            this.button98.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button98.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button98.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button98.ForeColor = System.Drawing.Color.White;
-            this.button98.Location = new System.Drawing.Point(13, 14);
-            this.button98.Name = "button98";
-            this.button98.Size = new System.Drawing.Size(36, 44);
-            this.button98.TabIndex = 26;
-            this.button98.UseVisualStyleBackColor = false;
-            this.button98.Click += new System.EventHandler(this.Button98_Click);
-            // 
             // button99
             // 
             this.button99.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2775,9 +2244,9 @@
             this.label37.ForeColor = System.Drawing.SystemColors.Window;
             this.label37.Location = new System.Drawing.Point(70, 43);
             this.label37.Name = "label37";
-            this.label37.Size = new System.Drawing.Size(292, 50);
+            this.label37.Size = new System.Drawing.Size(307, 50);
             this.label37.TabIndex = 6;
-            this.label37.Text = "Q3: Body in segments ?";
+            this.label37.Text = "Q33: Body in segments ?";
             // 
             // button100
             // 
@@ -2806,25 +2275,6 @@
             this.panel34.Size = new System.Drawing.Size(775, 360);
             this.panel34.TabIndex = 32;
             // 
-            // button101
-            // 
-            this.button101.BackColor = System.Drawing.Color.Transparent;
-            this.button101.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button101.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button101.FlatAppearance.BorderSize = 0;
-            this.button101.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button101.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button101.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button101.ForeColor = System.Drawing.Color.White;
-            this.button101.Location = new System.Drawing.Point(13, 14);
-            this.button101.Name = "button101";
-            this.button101.Size = new System.Drawing.Size(36, 44);
-            this.button101.TabIndex = 26;
-            this.button101.UseVisualStyleBackColor = false;
-            this.button101.Click += new System.EventHandler(this.Button101_Click);
-            // 
             // button102
             // 
             this.button102.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2847,9 +2297,9 @@
             this.label38.ForeColor = System.Drawing.SystemColors.Window;
             this.label38.Location = new System.Drawing.Point(70, 43);
             this.label38.Name = "label38";
-            this.label38.Size = new System.Drawing.Size(191, 50);
+            this.label38.Size = new System.Drawing.Size(206, 50);
             this.label38.TabIndex = 6;
-            this.label38.Text = "Q4: Flat body ?";
+            this.label38.Text = "Q34: Flat body ?";
             // 
             // button103
             // 
@@ -2878,25 +2328,6 @@
             this.panel35.Size = new System.Drawing.Size(775, 360);
             this.panel35.TabIndex = 32;
             // 
-            // button104
-            // 
-            this.button104.BackColor = System.Drawing.Color.Transparent;
-            this.button104.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button104.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button104.FlatAppearance.BorderSize = 0;
-            this.button104.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button104.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button104.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button104.ForeColor = System.Drawing.Color.White;
-            this.button104.Location = new System.Drawing.Point(13, 14);
-            this.button104.Name = "button104";
-            this.button104.Size = new System.Drawing.Size(36, 44);
-            this.button104.TabIndex = 26;
-            this.button104.UseVisualStyleBackColor = false;
-            this.button104.Click += new System.EventHandler(this.Button104_Click);
-            // 
             // button105
             // 
             this.button105.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2919,9 +2350,9 @@
             this.label39.ForeColor = System.Drawing.SystemColors.Window;
             this.label39.Location = new System.Drawing.Point(70, 43);
             this.label39.Name = "label39";
-            this.label39.Size = new System.Drawing.Size(564, 50);
+            this.label39.Size = new System.Drawing.Size(579, 50);
             this.label39.TabIndex = 6;
-            this.label39.Text = "Q5: Many cells to digest its food of a stomach ?";
+            this.label39.Text = "Q35: Many cells to digest its food of a stomach ?";
             // 
             // button106
             // 
@@ -2950,25 +2381,6 @@
             this.panel36.Size = new System.Drawing.Size(775, 360);
             this.panel36.TabIndex = 32;
             // 
-            // button107
-            // 
-            this.button107.BackColor = System.Drawing.Color.Transparent;
-            this.button107.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button107.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button107.FlatAppearance.BorderSize = 0;
-            this.button107.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button107.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button107.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button107.ForeColor = System.Drawing.Color.White;
-            this.button107.Location = new System.Drawing.Point(13, 14);
-            this.button107.Name = "button107";
-            this.button107.Size = new System.Drawing.Size(36, 44);
-            this.button107.TabIndex = 26;
-            this.button107.UseVisualStyleBackColor = false;
-            this.button107.Click += new System.EventHandler(this.Button107_Click);
-            // 
             // button108
             // 
             this.button108.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -2991,9 +2403,9 @@
             this.label40.ForeColor = System.Drawing.SystemColors.Window;
             this.label40.Location = new System.Drawing.Point(70, 43);
             this.label40.Name = "label40";
-            this.label40.Size = new System.Drawing.Size(301, 50);
+            this.label40.Size = new System.Drawing.Size(316, 50);
             this.label40.TabIndex = 6;
-            this.label40.Text = "Q6: more than one cell ?";
+            this.label40.Text = "Q36: more than one cell ?";
             // 
             // button109
             // 
@@ -3022,25 +2434,6 @@
             this.panel37.Size = new System.Drawing.Size(775, 360);
             this.panel37.TabIndex = 32;
             // 
-            // button110
-            // 
-            this.button110.BackColor = System.Drawing.Color.Transparent;
-            this.button110.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button110.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button110.FlatAppearance.BorderSize = 0;
-            this.button110.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button110.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button110.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button110.ForeColor = System.Drawing.Color.White;
-            this.button110.Location = new System.Drawing.Point(13, 14);
-            this.button110.Name = "button110";
-            this.button110.Size = new System.Drawing.Size(36, 44);
-            this.button110.TabIndex = 26;
-            this.button110.UseVisualStyleBackColor = false;
-            this.button110.Click += new System.EventHandler(this.Button110_Click);
-            // 
             // button111
             // 
             this.button111.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3063,9 +2456,9 @@
             this.label41.ForeColor = System.Drawing.SystemColors.Window;
             this.label41.Location = new System.Drawing.Point(70, 43);
             this.label41.Name = "label41";
-            this.label41.Size = new System.Drawing.Size(303, 50);
+            this.label41.Size = new System.Drawing.Size(318, 50);
             this.label41.TabIndex = 6;
-            this.label41.Text = "Q7: Spiral shaped shell ?";
+            this.label41.Text = "Q37: Spiral shaped shell ?";
             // 
             // button112
             // 
@@ -3094,25 +2487,6 @@
             this.panel38.Size = new System.Drawing.Size(775, 360);
             this.panel38.TabIndex = 32;
             // 
-            // button113
-            // 
-            this.button113.BackColor = System.Drawing.Color.Transparent;
-            this.button113.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button113.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button113.FlatAppearance.BorderSize = 0;
-            this.button113.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button113.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button113.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button113.ForeColor = System.Drawing.Color.White;
-            this.button113.Location = new System.Drawing.Point(13, 14);
-            this.button113.Name = "button113";
-            this.button113.Size = new System.Drawing.Size(36, 44);
-            this.button113.TabIndex = 26;
-            this.button113.UseVisualStyleBackColor = false;
-            this.button113.Click += new System.EventHandler(this.Button113_Click);
-            // 
             // button114
             // 
             this.button114.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3135,9 +2509,9 @@
             this.label42.ForeColor = System.Drawing.SystemColors.Window;
             this.label42.Location = new System.Drawing.Point(70, 43);
             this.label42.Name = "label42";
-            this.label42.Size = new System.Drawing.Size(414, 50);
+            this.label42.Size = new System.Drawing.Size(429, 50);
             this.label42.TabIndex = 6;
-            this.label42.Text = "Q8: Protected by two half-shells ?";
+            this.label42.Text = "Q38: Protected by two half-shells ?";
             // 
             // button115
             // 
@@ -3166,25 +2540,6 @@
             this.panel39.Size = new System.Drawing.Size(775, 360);
             this.panel39.TabIndex = 32;
             // 
-            // button116
-            // 
-            this.button116.BackColor = System.Drawing.Color.Transparent;
-            this.button116.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button116.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button116.FlatAppearance.BorderSize = 0;
-            this.button116.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button116.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button116.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button116.ForeColor = System.Drawing.Color.White;
-            this.button116.Location = new System.Drawing.Point(13, 14);
-            this.button116.Name = "button116";
-            this.button116.Size = new System.Drawing.Size(36, 44);
-            this.button116.TabIndex = 26;
-            this.button116.UseVisualStyleBackColor = false;
-            this.button116.Click += new System.EventHandler(this.Button116_Click);
-            // 
             // button117
             // 
             this.button117.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3207,9 +2562,9 @@
             this.label43.ForeColor = System.Drawing.SystemColors.Window;
             this.label43.Location = new System.Drawing.Point(70, 43);
             this.label43.Name = "label43";
-            this.label43.Size = new System.Drawing.Size(484, 50);
+            this.label43.Size = new System.Drawing.Size(499, 50);
             this.label43.TabIndex = 6;
-            this.label43.Text = "Q9: attached permanently to an object ?";
+            this.label43.Text = "Q39: attached permanently to an object ?";
             // 
             // button118
             // 
@@ -3238,25 +2593,6 @@
             this.panel40.Size = new System.Drawing.Size(775, 360);
             this.panel40.TabIndex = 32;
             // 
-            // button119
-            // 
-            this.button119.BackColor = System.Drawing.Color.Transparent;
-            this.button119.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button119.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button119.FlatAppearance.BorderSize = 0;
-            this.button119.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button119.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button119.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button119.ForeColor = System.Drawing.Color.White;
-            this.button119.Location = new System.Drawing.Point(13, 14);
-            this.button119.Name = "button119";
-            this.button119.Size = new System.Drawing.Size(36, 44);
-            this.button119.TabIndex = 26;
-            this.button119.UseVisualStyleBackColor = false;
-            this.button119.Click += new System.EventHandler(this.Button119_Click);
-            // 
             // button120
             // 
             this.button120.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3281,7 +2617,7 @@
             this.label44.Name = "label44";
             this.label44.Size = new System.Drawing.Size(238, 50);
             this.label44.TabIndex = 6;
-            this.label44.Text = "Q10: Have spikes ?";
+            this.label44.Text = "Q40: Have spikes ?";
             // 
             // button121
             // 
@@ -3310,25 +2646,6 @@
             this.panel41.Size = new System.Drawing.Size(775, 360);
             this.panel41.TabIndex = 32;
             // 
-            // button122
-            // 
-            this.button122.BackColor = System.Drawing.Color.Transparent;
-            this.button122.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button122.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button122.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button122.FlatAppearance.BorderSize = 0;
-            this.button122.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button122.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button122.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button122.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button122.ForeColor = System.Drawing.Color.White;
-            this.button122.Location = new System.Drawing.Point(13, 14);
-            this.button122.Name = "button122";
-            this.button122.Size = new System.Drawing.Size(36, 44);
-            this.button122.TabIndex = 26;
-            this.button122.UseVisualStyleBackColor = false;
-            this.button122.Click += new System.EventHandler(this.Button122_Click);
-            // 
             // button123
             // 
             this.button123.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3353,7 +2670,7 @@
             this.label45.Name = "label45";
             this.label45.Size = new System.Drawing.Size(241, 50);
             this.label45.TabIndex = 6;
-            this.label45.Text = "Q11: Have a shell ?";
+            this.label45.Text = "Q41: Have a shell ?";
             // 
             // button124
             // 
@@ -3382,25 +2699,6 @@
             this.panel42.Size = new System.Drawing.Size(775, 360);
             this.panel42.TabIndex = 32;
             // 
-            // button125
-            // 
-            this.button125.BackColor = System.Drawing.Color.Transparent;
-            this.button125.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
-            this.button125.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.button125.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button125.FlatAppearance.BorderSize = 0;
-            this.button125.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
-            this.button125.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
-            this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button125.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button125.ForeColor = System.Drawing.Color.White;
-            this.button125.Location = new System.Drawing.Point(13, 14);
-            this.button125.Name = "button125";
-            this.button125.Size = new System.Drawing.Size(36, 44);
-            this.button125.TabIndex = 26;
-            this.button125.UseVisualStyleBackColor = false;
-            this.button125.Click += new System.EventHandler(this.Button125_Click);
-            // 
             // button126
             // 
             this.button126.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
@@ -3425,7 +2723,7 @@
             this.label46.Name = "label46";
             this.label46.Size = new System.Drawing.Size(222, 50);
             this.label46.TabIndex = 6;
-            this.label46.Text = "Q12: Have a tail ?";
+            this.label46.Text = "Q42: Have a tail ?";
             // 
             // button127
             // 
@@ -3441,6 +2739,143 @@
             this.button127.Text = "NO";
             this.button127.UseVisualStyleBackColor = false;
             this.button127.Click += new System.EventHandler(this.Button127_Click);
+            // 
+            // label47
+            // 
+            this.label47.AutoSize = true;
+            this.label47.Font = new System.Drawing.Font("Cairo SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label47.ForeColor = System.Drawing.SystemColors.Window;
+            this.label47.Location = new System.Drawing.Point(95, 463);
+            this.label47.Name = "label47";
+            this.label47.Size = new System.Drawing.Size(0, 50);
+            this.label47.TabIndex = 27;
+            // 
+            // label48
+            // 
+            this.label48.AutoSize = true;
+            this.label48.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label48.ForeColor = System.Drawing.SystemColors.Window;
+            this.label48.Location = new System.Drawing.Point(566, 446);
+            this.label48.Name = "label48";
+            this.label48.Size = new System.Drawing.Size(220, 78);
+            this.label48.TabIndex = 44;
+            this.label48.Text = "Senior: Ibrahim Ahmed\r\nID: 2016030003";
+            // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            // 
+            // textBox1
+            // 
+            this.textBox1.Location = new System.Drawing.Point(695, 57);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(100, 20);
+            this.textBox1.TabIndex = 45;
+            // 
+            // button129
+            // 
+            this.button129.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
+            this.button129.FlatAppearance.BorderSize = 0;
+            this.button129.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button129.Font = new System.Drawing.Font("Cairo SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button129.ForeColor = System.Drawing.Color.White;
+            this.button129.Location = new System.Drawing.Point(582, 12);
+            this.button129.Name = "button129";
+            this.button129.Size = new System.Drawing.Size(97, 55);
+            this.button129.TabIndex = 46;
+            this.button129.Text = "Rules";
+            this.button129.UseVisualStyleBackColor = false;
+            this.button129.Click += new System.EventHandler(this.Button129_Click);
+            // 
+            // panelRules
+            // 
+            this.panelRules.Controls.Add(this.label55);
+            this.panelRules.Controls.Add(this.button130);
+            this.panelRules.Controls.Add(this.dataGridView1);
+            this.panelRules.Location = new System.Drawing.Point(11, 83);
+            this.panelRules.Name = "panelRules";
+            this.panelRules.Size = new System.Drawing.Size(805, 360);
+            this.panelRules.TabIndex = 47;
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
+            this.dataGridView1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.dataGridView1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.dataGridView1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Cairo SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(145)))), ((int)(((byte)(242)))));
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Cairo", 8.999999F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(156)))), ((int)(((byte)(77)))), ((int)(((byte)(204)))));
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.DefaultCellStyle = dataGridViewCellStyle2;
+            this.dataGridView1.EnableHeadersVisualStyles = false;
+            this.dataGridView1.GridColor = System.Drawing.SystemColors.Control;
+            this.dataGridView1.Location = new System.Drawing.Point(22, 54);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(21)))), ((int)(((byte)(100)))), ((int)(((byte)(191)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Cairo SemiBold", 9.749999F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.WhiteSmoke;
+            dataGridViewCellStyle3.Padding = new System.Windows.Forms.Padding(3);
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.GrayText;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            this.dataGridView1.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            this.dataGridView1.RowHeadersVisible = false;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.TopLeft;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Cairo", 9F);
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            this.dataGridView1.Size = new System.Drawing.Size(737, 292);
+            this.dataGridView1.StandardTab = true;
+            this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView1_CellContentClick);
+            // 
+            // label55
+            // 
+            this.label55.AutoSize = true;
+            this.label55.Font = new System.Drawing.Font("Cairo SemiBold", 15F, System.Drawing.FontStyle.Bold);
+            this.label55.ForeColor = System.Drawing.SystemColors.Window;
+            this.label55.Location = new System.Drawing.Point(265, 11);
+            this.label55.Name = "label55";
+            this.label55.Size = new System.Drawing.Size(268, 37);
+            this.label55.TabIndex = 29;
+            this.label55.Text = "Rules of Animal identification";
+            // 
+            // button130
+            // 
+            this.button130.BackColor = System.Drawing.Color.Transparent;
+            this.button130.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.visibility;
+            this.button130.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button130.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button130.FlatAppearance.BorderSize = 0;
+            this.button130.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button130.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button130.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button130.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button130.ForeColor = System.Drawing.Color.White;
+            this.button130.Location = new System.Drawing.Point(723, 4);
+            this.button130.Name = "button130";
+            this.button130.Size = new System.Drawing.Size(36, 44);
+            this.button130.TabIndex = 25;
+            this.button130.UseVisualStyleBackColor = false;
+            this.button130.Click += new System.EventHandler(this.Button130_Click);
             // 
             // button128
             // 
@@ -3460,6 +2895,310 @@
             this.button128.TabIndex = 43;
             this.button128.UseVisualStyleBackColor = false;
             this.button128.Click += new System.EventHandler(this.Button128_Click);
+            // 
+            // button116
+            // 
+            this.button116.BackColor = System.Drawing.Color.Transparent;
+            this.button116.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button116.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button116.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button116.FlatAppearance.BorderSize = 0;
+            this.button116.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button116.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button116.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button116.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button116.ForeColor = System.Drawing.Color.White;
+            this.button116.Location = new System.Drawing.Point(13, 14);
+            this.button116.Name = "button116";
+            this.button116.Size = new System.Drawing.Size(36, 44);
+            this.button116.TabIndex = 26;
+            this.button116.UseVisualStyleBackColor = false;
+            this.button116.Click += new System.EventHandler(this.Button116_Click);
+            // 
+            // button113
+            // 
+            this.button113.BackColor = System.Drawing.Color.Transparent;
+            this.button113.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button113.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button113.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button113.FlatAppearance.BorderSize = 0;
+            this.button113.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button113.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button113.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button113.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button113.ForeColor = System.Drawing.Color.White;
+            this.button113.Location = new System.Drawing.Point(13, 14);
+            this.button113.Name = "button113";
+            this.button113.Size = new System.Drawing.Size(36, 44);
+            this.button113.TabIndex = 26;
+            this.button113.UseVisualStyleBackColor = false;
+            this.button113.Click += new System.EventHandler(this.Button113_Click);
+            // 
+            // button110
+            // 
+            this.button110.BackColor = System.Drawing.Color.Transparent;
+            this.button110.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button110.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button110.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button110.FlatAppearance.BorderSize = 0;
+            this.button110.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button110.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button110.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button110.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button110.ForeColor = System.Drawing.Color.White;
+            this.button110.Location = new System.Drawing.Point(13, 14);
+            this.button110.Name = "button110";
+            this.button110.Size = new System.Drawing.Size(36, 44);
+            this.button110.TabIndex = 26;
+            this.button110.UseVisualStyleBackColor = false;
+            this.button110.Click += new System.EventHandler(this.Button110_Click);
+            // 
+            // button107
+            // 
+            this.button107.BackColor = System.Drawing.Color.Transparent;
+            this.button107.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button107.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button107.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button107.FlatAppearance.BorderSize = 0;
+            this.button107.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button107.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button107.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button107.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button107.ForeColor = System.Drawing.Color.White;
+            this.button107.Location = new System.Drawing.Point(13, 14);
+            this.button107.Name = "button107";
+            this.button107.Size = new System.Drawing.Size(36, 44);
+            this.button107.TabIndex = 26;
+            this.button107.UseVisualStyleBackColor = false;
+            this.button107.Click += new System.EventHandler(this.Button107_Click);
+            // 
+            // button104
+            // 
+            this.button104.BackColor = System.Drawing.Color.Transparent;
+            this.button104.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button104.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button104.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button104.FlatAppearance.BorderSize = 0;
+            this.button104.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button104.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button104.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button104.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button104.ForeColor = System.Drawing.Color.White;
+            this.button104.Location = new System.Drawing.Point(13, 14);
+            this.button104.Name = "button104";
+            this.button104.Size = new System.Drawing.Size(36, 44);
+            this.button104.TabIndex = 26;
+            this.button104.UseVisualStyleBackColor = false;
+            this.button104.Click += new System.EventHandler(this.Button104_Click);
+            // 
+            // button101
+            // 
+            this.button101.BackColor = System.Drawing.Color.Transparent;
+            this.button101.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button101.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button101.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button101.FlatAppearance.BorderSize = 0;
+            this.button101.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button101.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button101.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button101.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button101.ForeColor = System.Drawing.Color.White;
+            this.button101.Location = new System.Drawing.Point(13, 14);
+            this.button101.Name = "button101";
+            this.button101.Size = new System.Drawing.Size(36, 44);
+            this.button101.TabIndex = 26;
+            this.button101.UseVisualStyleBackColor = false;
+            this.button101.Click += new System.EventHandler(this.Button101_Click);
+            // 
+            // button98
+            // 
+            this.button98.BackColor = System.Drawing.Color.Transparent;
+            this.button98.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button98.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button98.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button98.FlatAppearance.BorderSize = 0;
+            this.button98.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button98.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button98.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button98.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button98.ForeColor = System.Drawing.Color.White;
+            this.button98.Location = new System.Drawing.Point(13, 14);
+            this.button98.Name = "button98";
+            this.button98.Size = new System.Drawing.Size(36, 44);
+            this.button98.TabIndex = 26;
+            this.button98.UseVisualStyleBackColor = false;
+            this.button98.Click += new System.EventHandler(this.Button98_Click);
+            // 
+            // button97
+            // 
+            this.button97.BackColor = System.Drawing.Color.Transparent;
+            this.button97.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button97.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button97.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button97.FlatAppearance.BorderSize = 0;
+            this.button97.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button97.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button97.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button97.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button97.ForeColor = System.Drawing.Color.White;
+            this.button97.Location = new System.Drawing.Point(13, 14);
+            this.button97.Name = "button97";
+            this.button97.Size = new System.Drawing.Size(36, 44);
+            this.button97.TabIndex = 26;
+            this.button97.UseVisualStyleBackColor = false;
+            this.button97.Click += new System.EventHandler(this.Button97_Click);
+            // 
+            // button92
+            // 
+            this.button92.BackColor = System.Drawing.Color.Transparent;
+            this.button92.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button92.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button92.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button92.FlatAppearance.BorderSize = 0;
+            this.button92.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button92.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button92.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button92.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button92.ForeColor = System.Drawing.Color.White;
+            this.button92.Location = new System.Drawing.Point(13, 14);
+            this.button92.Name = "button92";
+            this.button92.Size = new System.Drawing.Size(36, 44);
+            this.button92.TabIndex = 25;
+            this.button92.UseVisualStyleBackColor = false;
+            this.button92.Click += new System.EventHandler(this.Button92_Click);
+            // 
+            // button89
+            // 
+            this.button89.BackColor = System.Drawing.Color.Transparent;
+            this.button89.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button89.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button89.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button89.FlatAppearance.BorderSize = 0;
+            this.button89.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button89.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button89.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button89.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button89.ForeColor = System.Drawing.Color.White;
+            this.button89.Location = new System.Drawing.Point(13, 14);
+            this.button89.Name = "button89";
+            this.button89.Size = new System.Drawing.Size(36, 44);
+            this.button89.TabIndex = 25;
+            this.button89.UseVisualStyleBackColor = false;
+            this.button89.Click += new System.EventHandler(this.Button89_Click);
+            // 
+            // button86
+            // 
+            this.button86.BackColor = System.Drawing.Color.Transparent;
+            this.button86.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button86.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button86.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button86.FlatAppearance.BorderSize = 0;
+            this.button86.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button86.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button86.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button86.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button86.ForeColor = System.Drawing.Color.White;
+            this.button86.Location = new System.Drawing.Point(13, 14);
+            this.button86.Name = "button86";
+            this.button86.Size = new System.Drawing.Size(36, 44);
+            this.button86.TabIndex = 25;
+            this.button86.UseVisualStyleBackColor = false;
+            this.button86.Click += new System.EventHandler(this.Button86_Click);
+            // 
+            // button83
+            // 
+            this.button83.BackColor = System.Drawing.Color.Transparent;
+            this.button83.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button83.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button83.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button83.FlatAppearance.BorderSize = 0;
+            this.button83.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button83.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button83.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button83.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button83.ForeColor = System.Drawing.Color.White;
+            this.button83.Location = new System.Drawing.Point(13, 14);
+            this.button83.Name = "button83";
+            this.button83.Size = new System.Drawing.Size(36, 44);
+            this.button83.TabIndex = 25;
+            this.button83.UseVisualStyleBackColor = false;
+            this.button83.Click += new System.EventHandler(this.Button83_Click);
+            // 
+            // button80
+            // 
+            this.button80.BackColor = System.Drawing.Color.Transparent;
+            this.button80.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button80.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button80.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button80.FlatAppearance.BorderSize = 0;
+            this.button80.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button80.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button80.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button80.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button80.ForeColor = System.Drawing.Color.White;
+            this.button80.Location = new System.Drawing.Point(13, 14);
+            this.button80.Name = "button80";
+            this.button80.Size = new System.Drawing.Size(36, 44);
+            this.button80.TabIndex = 25;
+            this.button80.UseVisualStyleBackColor = false;
+            this.button80.Click += new System.EventHandler(this.Button80_Click);
+            // 
+            // button77
+            // 
+            this.button77.BackColor = System.Drawing.Color.Transparent;
+            this.button77.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button77.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button77.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button77.FlatAppearance.BorderSize = 0;
+            this.button77.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button77.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button77.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button77.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button77.ForeColor = System.Drawing.Color.White;
+            this.button77.Location = new System.Drawing.Point(13, 14);
+            this.button77.Name = "button77";
+            this.button77.Size = new System.Drawing.Size(36, 44);
+            this.button77.TabIndex = 25;
+            this.button77.UseVisualStyleBackColor = false;
+            this.button77.Click += new System.EventHandler(this.Button77_Click);
+            // 
+            // button74
+            // 
+            this.button74.BackColor = System.Drawing.Color.Transparent;
+            this.button74.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button74.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button74.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button74.FlatAppearance.BorderSize = 0;
+            this.button74.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button74.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button74.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button74.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button74.ForeColor = System.Drawing.Color.White;
+            this.button74.Location = new System.Drawing.Point(13, 14);
+            this.button74.Name = "button74";
+            this.button74.Size = new System.Drawing.Size(36, 44);
+            this.button74.TabIndex = 25;
+            this.button74.UseVisualStyleBackColor = false;
+            this.button74.Click += new System.EventHandler(this.Button74_Click);
+            // 
+            // button71
+            // 
+            this.button71.BackColor = System.Drawing.Color.Transparent;
+            this.button71.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button71.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button71.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button71.FlatAppearance.BorderSize = 0;
+            this.button71.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button71.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button71.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button71.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button71.ForeColor = System.Drawing.Color.White;
+            this.button71.Location = new System.Drawing.Point(13, 14);
+            this.button71.Name = "button71";
+            this.button71.Size = new System.Drawing.Size(36, 44);
+            this.button71.TabIndex = 25;
+            this.button71.UseVisualStyleBackColor = false;
+            this.button71.Click += new System.EventHandler(this.Button71_Click);
             // 
             // Logo
             // 
@@ -3514,64 +3253,480 @@
             this.btn_exit.UseVisualStyleBackColor = false;
             this.btn_exit.Click += new System.EventHandler(this.Btn_exit_Click);
             // 
-            // label47
+            // button67
             // 
-            this.label47.AutoSize = true;
-            this.label47.Font = new System.Drawing.Font("Cairo SemiBold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label47.ForeColor = System.Drawing.SystemColors.Window;
-            this.label47.Location = new System.Drawing.Point(95, 463);
-            this.label47.Name = "label47";
-            this.label47.Size = new System.Drawing.Size(0, 50);
-            this.label47.TabIndex = 27;
+            this.button67.BackColor = System.Drawing.Color.Transparent;
+            this.button67.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button67.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button67.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button67.FlatAppearance.BorderSize = 0;
+            this.button67.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button67.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button67.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button67.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button67.ForeColor = System.Drawing.Color.White;
+            this.button67.Location = new System.Drawing.Point(13, 14);
+            this.button67.Name = "button67";
+            this.button67.Size = new System.Drawing.Size(36, 44);
+            this.button67.TabIndex = 25;
+            this.button67.UseVisualStyleBackColor = false;
+            this.button67.Click += new System.EventHandler(this.Button67_Click);
             // 
-            // label48
+            // button64
             // 
-            this.label48.AutoSize = true;
-            this.label48.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label48.ForeColor = System.Drawing.SystemColors.Window;
-            this.label48.Location = new System.Drawing.Point(566, 446);
-            this.label48.Name = "label48";
-            this.label48.Size = new System.Drawing.Size(220, 78);
-            this.label48.TabIndex = 44;
-            this.label48.Text = "Senior: Ibrahim Ahmed\r\nID: 2016030003";
+            this.button64.BackColor = System.Drawing.Color.Transparent;
+            this.button64.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button64.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button64.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button64.FlatAppearance.BorderSize = 0;
+            this.button64.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button64.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button64.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button64.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button64.ForeColor = System.Drawing.Color.White;
+            this.button64.Location = new System.Drawing.Point(13, 14);
+            this.button64.Name = "button64";
+            this.button64.Size = new System.Drawing.Size(36, 44);
+            this.button64.TabIndex = 25;
+            this.button64.UseVisualStyleBackColor = false;
+            this.button64.Click += new System.EventHandler(this.Button64_Click);
             // 
-            // timer1
+            // button61
             // 
-            this.timer1.Tick += new System.EventHandler(this.Timer1_Tick);
+            this.button61.BackColor = System.Drawing.Color.Transparent;
+            this.button61.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button61.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button61.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button61.FlatAppearance.BorderSize = 0;
+            this.button61.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button61.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button61.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button61.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button61.ForeColor = System.Drawing.Color.White;
+            this.button61.Location = new System.Drawing.Point(13, 14);
+            this.button61.Name = "button61";
+            this.button61.Size = new System.Drawing.Size(36, 44);
+            this.button61.TabIndex = 25;
+            this.button61.UseVisualStyleBackColor = false;
+            this.button61.Click += new System.EventHandler(this.Button61_Click);
             // 
-            // textBox1
+            // button58
             // 
-            this.textBox1.Location = new System.Drawing.Point(695, 57);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(100, 20);
-            this.textBox1.TabIndex = 45;
+            this.button58.BackColor = System.Drawing.Color.Transparent;
+            this.button58.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button58.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button58.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button58.FlatAppearance.BorderSize = 0;
+            this.button58.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button58.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button58.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button58.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button58.ForeColor = System.Drawing.Color.White;
+            this.button58.Location = new System.Drawing.Point(13, 14);
+            this.button58.Name = "button58";
+            this.button58.Size = new System.Drawing.Size(36, 44);
+            this.button58.TabIndex = 25;
+            this.button58.UseVisualStyleBackColor = false;
+            this.button58.Click += new System.EventHandler(this.Button58_Click);
             // 
-            // pictureBox1
+            // button55
             // 
-            this.pictureBox1.Location = new System.Drawing.Point(32, 65);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 28;
-            this.pictureBox1.TabStop = false;
+            this.button55.BackColor = System.Drawing.Color.Transparent;
+            this.button55.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button55.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button55.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button55.FlatAppearance.BorderSize = 0;
+            this.button55.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button55.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button55.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button55.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button55.ForeColor = System.Drawing.Color.White;
+            this.button55.Location = new System.Drawing.Point(13, 14);
+            this.button55.Name = "button55";
+            this.button55.Size = new System.Drawing.Size(36, 44);
+            this.button55.TabIndex = 25;
+            this.button55.UseVisualStyleBackColor = false;
+            this.button55.Click += new System.EventHandler(this.Button55_Click);
             // 
-            // pictureBox2
+            // button52
             // 
-            this.pictureBox2.Location = new System.Drawing.Point(32, 181);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 29;
-            this.pictureBox2.TabStop = false;
+            this.button52.BackColor = System.Drawing.Color.Transparent;
+            this.button52.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button52.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button52.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button52.FlatAppearance.BorderSize = 0;
+            this.button52.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button52.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button52.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button52.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button52.ForeColor = System.Drawing.Color.White;
+            this.button52.Location = new System.Drawing.Point(13, 14);
+            this.button52.Name = "button52";
+            this.button52.Size = new System.Drawing.Size(36, 44);
+            this.button52.TabIndex = 25;
+            this.button52.UseVisualStyleBackColor = false;
+            this.button52.Click += new System.EventHandler(this.Button52_Click);
             // 
-            // pictureBox3
+            // button49
             // 
-            this.pictureBox3.Location = new System.Drawing.Point(426, 65);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 30;
-            this.pictureBox3.TabStop = false;
+            this.button49.BackColor = System.Drawing.Color.Transparent;
+            this.button49.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button49.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button49.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button49.FlatAppearance.BorderSize = 0;
+            this.button49.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button49.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button49.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button49.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button49.ForeColor = System.Drawing.Color.White;
+            this.button49.Location = new System.Drawing.Point(13, 14);
+            this.button49.Name = "button49";
+            this.button49.Size = new System.Drawing.Size(36, 44);
+            this.button49.TabIndex = 25;
+            this.button49.UseVisualStyleBackColor = false;
+            this.button49.Click += new System.EventHandler(this.Button49_Click);
+            // 
+            // button46
+            // 
+            this.button46.BackColor = System.Drawing.Color.Transparent;
+            this.button46.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button46.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button46.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button46.FlatAppearance.BorderSize = 0;
+            this.button46.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button46.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button46.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button46.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button46.ForeColor = System.Drawing.Color.White;
+            this.button46.Location = new System.Drawing.Point(13, 14);
+            this.button46.Name = "button46";
+            this.button46.Size = new System.Drawing.Size(36, 44);
+            this.button46.TabIndex = 25;
+            this.button46.UseVisualStyleBackColor = false;
+            this.button46.Click += new System.EventHandler(this.Button46_Click);
+            // 
+            // button43
+            // 
+            this.button43.BackColor = System.Drawing.Color.Transparent;
+            this.button43.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button43.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button43.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button43.FlatAppearance.BorderSize = 0;
+            this.button43.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button43.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button43.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button43.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button43.ForeColor = System.Drawing.Color.White;
+            this.button43.Location = new System.Drawing.Point(13, 14);
+            this.button43.Name = "button43";
+            this.button43.Size = new System.Drawing.Size(36, 44);
+            this.button43.TabIndex = 25;
+            this.button43.UseVisualStyleBackColor = false;
+            this.button43.Click += new System.EventHandler(this.Button43_Click);
+            // 
+            // button40
+            // 
+            this.button40.BackColor = System.Drawing.Color.Transparent;
+            this.button40.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button40.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button40.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button40.FlatAppearance.BorderSize = 0;
+            this.button40.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button40.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button40.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button40.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button40.ForeColor = System.Drawing.Color.White;
+            this.button40.Location = new System.Drawing.Point(13, 14);
+            this.button40.Name = "button40";
+            this.button40.Size = new System.Drawing.Size(36, 44);
+            this.button40.TabIndex = 25;
+            this.button40.UseVisualStyleBackColor = false;
+            this.button40.Click += new System.EventHandler(this.Button40_Click);
+            // 
+            // button37
+            // 
+            this.button37.BackColor = System.Drawing.Color.Transparent;
+            this.button37.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button37.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button37.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button37.FlatAppearance.BorderSize = 0;
+            this.button37.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button37.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button37.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button37.ForeColor = System.Drawing.Color.White;
+            this.button37.Location = new System.Drawing.Point(13, 14);
+            this.button37.Name = "button37";
+            this.button37.Size = new System.Drawing.Size(36, 44);
+            this.button37.TabIndex = 25;
+            this.button37.UseVisualStyleBackColor = false;
+            this.button37.Click += new System.EventHandler(this.Button37_Click);
+            // 
+            // button34
+            // 
+            this.button34.BackColor = System.Drawing.Color.Transparent;
+            this.button34.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button34.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button34.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button34.FlatAppearance.BorderSize = 0;
+            this.button34.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button34.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button34.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button34.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button34.ForeColor = System.Drawing.Color.White;
+            this.button34.Location = new System.Drawing.Point(13, 14);
+            this.button34.Name = "button34";
+            this.button34.Size = new System.Drawing.Size(36, 44);
+            this.button34.TabIndex = 25;
+            this.button34.UseVisualStyleBackColor = false;
+            this.button34.Click += new System.EventHandler(this.Button34_Click);
+            // 
+            // button31
+            // 
+            this.button31.BackColor = System.Drawing.Color.Transparent;
+            this.button31.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button31.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button31.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button31.FlatAppearance.BorderSize = 0;
+            this.button31.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button31.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button31.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button31.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button31.ForeColor = System.Drawing.Color.White;
+            this.button31.Location = new System.Drawing.Point(13, 14);
+            this.button31.Name = "button31";
+            this.button31.Size = new System.Drawing.Size(36, 44);
+            this.button31.TabIndex = 25;
+            this.button31.UseVisualStyleBackColor = false;
+            this.button31.Click += new System.EventHandler(this.Button31_Click);
+            // 
+            // button28
+            // 
+            this.button28.BackColor = System.Drawing.Color.Transparent;
+            this.button28.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button28.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button28.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button28.FlatAppearance.BorderSize = 0;
+            this.button28.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button28.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button28.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button28.ForeColor = System.Drawing.Color.White;
+            this.button28.Location = new System.Drawing.Point(13, 14);
+            this.button28.Name = "button28";
+            this.button28.Size = new System.Drawing.Size(36, 44);
+            this.button28.TabIndex = 25;
+            this.button28.UseVisualStyleBackColor = false;
+            this.button28.Click += new System.EventHandler(this.Button28_Click);
+            // 
+            // button24
+            // 
+            this.button24.BackColor = System.Drawing.Color.Transparent;
+            this.button24.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button24.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button24.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button24.FlatAppearance.BorderSize = 0;
+            this.button24.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button24.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button24.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button24.ForeColor = System.Drawing.Color.White;
+            this.button24.Location = new System.Drawing.Point(13, 14);
+            this.button24.Name = "button24";
+            this.button24.Size = new System.Drawing.Size(36, 44);
+            this.button24.TabIndex = 25;
+            this.button24.UseVisualStyleBackColor = false;
+            this.button24.Click += new System.EventHandler(this.Button24_Click_1);
+            // 
+            // button21
+            // 
+            this.button21.BackColor = System.Drawing.Color.Transparent;
+            this.button21.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button21.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button21.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button21.FlatAppearance.BorderSize = 0;
+            this.button21.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button21.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button21.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button21.ForeColor = System.Drawing.Color.White;
+            this.button21.Location = new System.Drawing.Point(13, 14);
+            this.button21.Name = "button21";
+            this.button21.Size = new System.Drawing.Size(36, 44);
+            this.button21.TabIndex = 25;
+            this.button21.UseVisualStyleBackColor = false;
+            this.button21.Click += new System.EventHandler(this.Button21_Click);
+            // 
+            // button9
+            // 
+            this.button9.BackColor = System.Drawing.Color.Transparent;
+            this.button9.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button9.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button9.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button9.FlatAppearance.BorderSize = 0;
+            this.button9.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button9.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button9.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button9.ForeColor = System.Drawing.Color.White;
+            this.button9.Location = new System.Drawing.Point(13, 14);
+            this.button9.Name = "button9";
+            this.button9.Size = new System.Drawing.Size(36, 44);
+            this.button9.TabIndex = 25;
+            this.button9.UseVisualStyleBackColor = false;
+            this.button9.Click += new System.EventHandler(this.Button9_Click);
+            // 
+            // button5
+            // 
+            this.button5.BackColor = System.Drawing.Color.Transparent;
+            this.button5.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button5.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button5.FlatAppearance.BorderSize = 0;
+            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button5.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button5.ForeColor = System.Drawing.Color.White;
+            this.button5.Location = new System.Drawing.Point(13, 14);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(36, 44);
+            this.button5.TabIndex = 25;
+            this.button5.UseVisualStyleBackColor = false;
+            this.button5.Click += new System.EventHandler(this.Button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.BackColor = System.Drawing.Color.Transparent;
+            this.button4.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button4.FlatAppearance.BorderSize = 0;
+            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button4.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button4.ForeColor = System.Drawing.Color.White;
+            this.button4.Location = new System.Drawing.Point(13, 14);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(36, 44);
+            this.button4.TabIndex = 25;
+            this.button4.UseVisualStyleBackColor = false;
+            this.button4.Click += new System.EventHandler(this.Button4_Click);
+            // 
+            // button15
+            // 
+            this.button15.BackColor = System.Drawing.Color.Transparent;
+            this.button15.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button15.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button15.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button15.FlatAppearance.BorderSize = 0;
+            this.button15.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button15.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button15.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button15.ForeColor = System.Drawing.Color.White;
+            this.button15.Location = new System.Drawing.Point(13, 14);
+            this.button15.Name = "button15";
+            this.button15.Size = new System.Drawing.Size(36, 44);
+            this.button15.TabIndex = 25;
+            this.button15.UseVisualStyleBackColor = false;
+            this.button15.Click += new System.EventHandler(this.Button15_Click);
+            // 
+            // button12
+            // 
+            this.button12.BackColor = System.Drawing.Color.Transparent;
+            this.button12.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button12.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button12.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button12.FlatAppearance.BorderSize = 0;
+            this.button12.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button12.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button12.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button12.ForeColor = System.Drawing.Color.White;
+            this.button12.Location = new System.Drawing.Point(13, 14);
+            this.button12.Name = "button12";
+            this.button12.Size = new System.Drawing.Size(36, 44);
+            this.button12.TabIndex = 25;
+            this.button12.UseVisualStyleBackColor = false;
+            this.button12.Click += new System.EventHandler(this.Button12_Click);
+            // 
+            // button18
+            // 
+            this.button18.BackColor = System.Drawing.Color.Transparent;
+            this.button18.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button18.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button18.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button18.FlatAppearance.BorderSize = 0;
+            this.button18.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button18.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button18.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button18.ForeColor = System.Drawing.Color.White;
+            this.button18.Location = new System.Drawing.Point(13, 14);
+            this.button18.Name = "button18";
+            this.button18.Size = new System.Drawing.Size(36, 44);
+            this.button18.TabIndex = 25;
+            this.button18.UseVisualStyleBackColor = false;
+            this.button18.Click += new System.EventHandler(this.Button18_Click);
+            // 
+            // button125
+            // 
+            this.button125.BackColor = System.Drawing.Color.Transparent;
+            this.button125.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button125.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button125.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button125.FlatAppearance.BorderSize = 0;
+            this.button125.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button125.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button125.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button125.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button125.ForeColor = System.Drawing.Color.White;
+            this.button125.Location = new System.Drawing.Point(13, 14);
+            this.button125.Name = "button125";
+            this.button125.Size = new System.Drawing.Size(36, 44);
+            this.button125.TabIndex = 26;
+            this.button125.UseVisualStyleBackColor = false;
+            this.button125.Click += new System.EventHandler(this.Button125_Click);
+            // 
+            // button122
+            // 
+            this.button122.BackColor = System.Drawing.Color.Transparent;
+            this.button122.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button122.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button122.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button122.FlatAppearance.BorderSize = 0;
+            this.button122.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button122.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button122.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button122.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button122.ForeColor = System.Drawing.Color.White;
+            this.button122.Location = new System.Drawing.Point(13, 14);
+            this.button122.Name = "button122";
+            this.button122.Size = new System.Drawing.Size(36, 44);
+            this.button122.TabIndex = 26;
+            this.button122.UseVisualStyleBackColor = false;
+            this.button122.Click += new System.EventHandler(this.Button122_Click);
+            // 
+            // button119
+            // 
+            this.button119.BackColor = System.Drawing.Color.Transparent;
+            this.button119.BackgroundImage = global::Animal_IdentificationKBS.Properties.Resources.back;
+            this.button119.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button119.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.button119.FlatAppearance.BorderSize = 0;
+            this.button119.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Transparent;
+            this.button119.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Transparent;
+            this.button119.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button119.Font = new System.Drawing.Font("Cairo", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button119.ForeColor = System.Drawing.Color.White;
+            this.button119.Location = new System.Drawing.Point(13, 14);
+            this.button119.Name = "button119";
+            this.button119.Size = new System.Drawing.Size(36, 44);
+            this.button119.TabIndex = 26;
+            this.button119.UseVisualStyleBackColor = false;
+            this.button119.Click += new System.EventHandler(this.Button119_Click);
             // 
             // pictureBox4
             // 
@@ -3582,85 +3737,45 @@
             this.pictureBox4.TabIndex = 31;
             this.pictureBox4.TabStop = false;
             // 
-            // label49
+            // pictureBox3
             // 
-            this.label49.AutoSize = true;
-            this.label49.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label49.ForeColor = System.Drawing.SystemColors.Window;
-            this.label49.Location = new System.Drawing.Point(276, 181);
-            this.label49.Name = "label49";
-            this.label49.Size = new System.Drawing.Size(27, 39);
-            this.label49.TabIndex = 33;
-            this.label49.Text = "  ";
+            this.pictureBox3.Location = new System.Drawing.Point(426, 65);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 30;
+            this.pictureBox3.TabStop = false;
             // 
-            // label50
+            // pictureBox2
             // 
-            this.label50.AutoSize = true;
-            this.label50.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label50.ForeColor = System.Drawing.SystemColors.Window;
-            this.label50.Location = new System.Drawing.Point(138, 181);
-            this.label50.Name = "label50";
-            this.label50.Size = new System.Drawing.Size(148, 39);
-            this.label50.TabIndex = 32;
-            this.label50.Text = "The Animal is: ";
+            this.pictureBox2.Location = new System.Drawing.Point(32, 181);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox2.TabIndex = 29;
+            this.pictureBox2.TabStop = false;
             // 
-            // label51
+            // pictureBox1
             // 
-            this.label51.AutoSize = true;
-            this.label51.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label51.ForeColor = System.Drawing.SystemColors.Window;
-            this.label51.Location = new System.Drawing.Point(670, 65);
-            this.label51.Name = "label51";
-            this.label51.Size = new System.Drawing.Size(27, 39);
-            this.label51.TabIndex = 35;
-            this.label51.Text = "  ";
-            // 
-            // label52
-            // 
-            this.label52.AutoSize = true;
-            this.label52.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label52.ForeColor = System.Drawing.SystemColors.Window;
-            this.label52.Location = new System.Drawing.Point(532, 65);
-            this.label52.Name = "label52";
-            this.label52.Size = new System.Drawing.Size(148, 39);
-            this.label52.TabIndex = 34;
-            this.label52.Text = "The Animal is: ";
-            // 
-            // label53
-            // 
-            this.label53.AutoSize = true;
-            this.label53.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label53.ForeColor = System.Drawing.SystemColors.Window;
-            this.label53.Location = new System.Drawing.Point(670, 181);
-            this.label53.Name = "label53";
-            this.label53.Size = new System.Drawing.Size(27, 39);
-            this.label53.TabIndex = 37;
-            this.label53.Text = "  ";
-            // 
-            // label54
-            // 
-            this.label54.AutoSize = true;
-            this.label54.Font = new System.Drawing.Font("Cairo SemiBold", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label54.ForeColor = System.Drawing.SystemColors.Window;
-            this.label54.Location = new System.Drawing.Point(532, 181);
-            this.label54.Name = "label54";
-            this.label54.Size = new System.Drawing.Size(148, 39);
-            this.label54.TabIndex = 36;
-            this.label54.Text = "The Animal is: ";
+            this.pictureBox1.Location = new System.Drawing.Point(32, 65);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(100, 100);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 28;
+            this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(106)))), ((int)(((byte)(27)))), ((int)(((byte)(154)))));
-            this.ClientSize = new System.Drawing.Size(835, 533);
+            this.ClientSize = new System.Drawing.Size(834, 533);
+            this.Controls.Add(this.panelRules);
+            this.Controls.Add(this.button129);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label48);
             this.Controls.Add(this.label47);
             this.Controls.Add(this.button128);
-            this.Controls.Add(this.panel42);
-            this.Controls.Add(this.panel41);
-            this.Controls.Add(this.panel40);
             this.Controls.Add(this.panel39);
             this.Controls.Add(this.panel38);
             this.Controls.Add(this.panel37);
@@ -3705,8 +3820,11 @@
             this.Controls.Add(this.panel5);
             this.Controls.Add(this.panel7);
             this.Controls.Add(this.panel1);
-            this.Controls.Add(this.panelResult);
             this.Controls.Add(this.panelDone);
+            this.Controls.Add(this.panel42);
+            this.Controls.Add(this.panel41);
+            this.Controls.Add(this.panel40);
+            this.Controls.Add(this.panelResult);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
@@ -3799,10 +3917,13 @@
             this.panel41.PerformLayout();
             this.panel42.ResumeLayout(false);
             this.panel42.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panelRules.ResumeLayout(false);
+            this.panelRules.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -4046,6 +4167,11 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button129;
+        private System.Windows.Forms.Panel panelRules;
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Button button130;
+        private System.Windows.Forms.Label label55;
     }
 }
 
